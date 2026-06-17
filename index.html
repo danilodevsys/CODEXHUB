@@ -1,0 +1,2002 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="viewport" content="width=device-width, initial-scale=1"><title>index </title><style>html{font-size:17.000000px;}</style><style>/* copy from https://github.com/sindresorhus/github-markdown-css/ */
+
+html,body{background-color: #feffff;}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #333333;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body figure{margin:0;padding:0; display:table;}
+.markdown-body figure figcaption{font-size:92%; text-align:center; color:#09844f;}
+
+.markdown-body .anchor {
+  float: left;
+  line-height: 1;
+  margin-left: -1.25rem;
+  padding-right: 0.25rem;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #0595bf;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body details {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body a {
+  background-color: initial;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+.markdown-body strong{
+  color: #333333;
+}
+.markdown-body em{
+  color: #333333;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace,monospace;
+  font-size: 0.9rem;
+}
+
+.markdown-body hr {
+  box-sizing: initial;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #0366dd;
+  text-decoration: none;
+}
+.markdown-body mjx-container[jax="SVG"] > svg a{fill:#0366dd;stroke: #0366dd;}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr:after,
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 0.1875rem 0.3125rem;
+  font: 0.75rem SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  line-height: 0.75rem;
+  color: #09844f;
+  vertical-align: middle;
+  background-color: #f7f8f8;
+  border: 1px solid #e1e2e2;
+  border-radius: 0.1875rem;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol ol ol,
+.markdown-body ol ul ol,
+.markdown-body ul ol ol,
+.markdown-body ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 0.75rem;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body input::-webkit-inner-spin-button,
+.markdown-body input::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body:after,
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  clear: both;
+}
+
+.markdown-body>:first-child {
+  margin-top: 0!important;
+}
+
+.markdown-body>:last-child {
+  margin-bottom: 0!important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body blockquote,
+.markdown-body details,
+.markdown-body dl,
+.markdown-body ol,
+.markdown-body p,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.markdown-body hr {
+  height: .25rem;
+  padding: 0;
+  margin: 1.5rem 0;
+  background-color: #e1e2e2;
+  border: 0;
+}
+
+.markdown-body blockquote {
+  padding: 0 1rem;
+  color: #636363;
+  border-left: .25rem solid #bbbbbb;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  padding-bottom: .3rem;
+  border-bottom: 1px solid #e7e8e8;
+  color: #0595bf;
+}
+
+.markdown-body h2 {
+  font-size: 1.5rem;
+  color: #0595bf;
+}
+
+.markdown-body h3 {
+  font-size: 1.25rem;
+  color: #0595bf;
+}
+
+.markdown-body h4 {
+  font-size: 1rem;
+  color: #0595bf;
+}
+
+.markdown-body h5 {
+  font-size: .875rem;
+  color: #0595bf;
+}
+
+.markdown-body h6 {
+  font-size: .85rem;
+  color: #0595bf;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 2rem;
+}
+
+.markdown-body ol ol,
+.markdown-body ol ul,
+.markdown-body ul ol,
+.markdown-body ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 1rem;
+}
+
+.markdown-body li+li {
+  margin-top: .25rem;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.markdown-body dl dd {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #b9baba;
+}
+
+.markdown-body table tr {
+  background-color: #feffff;
+  border-top: 1px solid #b9baba;
+}
+
+.markdown-body table th {
+  background-color: #e7e8e8;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f9f9;
+}
+
+.markdown-body img,.markdown-body video {
+  max-width: 100%;
+  box-sizing: initial;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 1.25rem;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 1.25rem;
+}
+
+.markdown-body code {
+  padding: .2rem .4rem;
+  margin: 0;
+  font-size: 85%;
+  background-color: #f7f8f8;
+  color: #09844f;
+  border-radius: 0.1875rem;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+   font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 1rem;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 1rem;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f8f8;
+  border-radius: 0.1875rem;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: initial;
+  border: 0;
+  color: #09844f;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 0.1875rem;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 .2rem .25rem -1.6rem;
+  vertical-align: middle;
+}
+
+.markdown-body .task-list-item input[type="checkbox"]{
+-webkit-appearance: none;-moz-appearance: none;appearance: none;
+width: 0.875rem; height: 0.875rem;outline: none;
+border: 1px solid #0366dd;border-radius: 2px; 
+}
+.markdown-body .task-list-item input[type="checkbox"]:checked {
+  background:no-repeat center/80% url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20fill%3D%22%230366dd%22%20d%3D%22M173.898%20439.404l-166.4-166.4c-9.997-9.997-9.997-26.206%200-36.204l36.203-36.204c9.997-9.998%2026.207-9.998%2036.204%200L192%20312.69%20432.095%2072.596c9.997-9.997%2026.207-9.997%2036.204%200l36.203%2036.204c9.997%209.997%209.997%2026.206%200%2036.204l-294.4%20294.401c-9.998%209.997-26.207%209.997-36.204-.001z%22%2F%3E%3C%2Fsvg%3E") ;
+}
+
+.markdown-body section.footnotes{
+    margin-top:3rem;
+    border-top:solid 1px #e1e2e2;
+    padding-top:0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown-body mark{color: #111;}
+}
+
+/* PrismJS 1.23.0
+https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+@media print {
+    code[class*="language-"],
+    pre[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1rem;
+    margin: .5rem 0;
+    overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background-color: #f7f8f8;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .1rem;
+    border-radius: .3rem;
+    white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #8e9c92;
+}
+
+.token.punctuation {
+    color: #2834ce;
+}
+
+.token.namespace {
+    opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #2834ce;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #d32d26;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #$$codeBlockColor$$;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #bc319c;
+}
+
+.token.function,
+.token.class-name {
+    color: #967d41;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #784830;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+
+pre[class*="language-"].line-numbers {
+  position: relative;
+  padding-left: 3.8rem;
+  counter-reset: linenumber;
+}
+
+pre[class*="language-"].line-numbers > code {
+  position: relative;
+  white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8rem;
+  width: 3rem; /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #bfc0c0;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+  .line-numbers-rows > span {
+    display: block;
+    counter-increment: linenumber;
+  }
+
+    .line-numbers-rows > span:before {
+      content: counter(linenumber);
+      color: #bfc0c0;
+      display: block;
+      padding-right: 0.8rem;
+      text-align: right;
+    }
+
+
+</style><script>(n=>{"use strict";let s,r,e;const l=["cdn.jsdelivr.net","fastly.jsdelivr.net","gcore.jsdelivr.net","cdn.zenless.top","testingcf.jsdelivr.net"],t="//",i=l[0],o=Date.now(),a=2e3,c="jsdelivr-auto-fallback",f="/gh/PipecraftNet/jsdelivr-auto-fallback@main/empty.css?",d=e=>e&&e.includes(t+i),m=e=>e.replace(t+i,t+s),u=window.setTimeout,v=n.querySelectorAll.bind(n),b=()=>{let e,t;for(e of v('link[rel="stylesheet"]'))t=e.href,d(t)&&!t.includes(f)&&(e.href=m(t));for(e of v("script"))if(t=e.src,d(t)){const s=n.createElement("script");s.src=m(t),e.defer=!0,e.src="",e.before(s),e.remove()}for(e of v("img"))t=e.src,d(t)&&(e.src="",e.src=m(t));for(e of v("*[style]"))t=e.getAttribute("style"),d(t)&&e.setAttribute("style",m(t));for(e of v("style"))t=e.innerHTML,d(t)&&(e.innerHTML=m(t))},h=()=>{!e&&r&&s&&(console.warn(i+" is not available. Use "+s),e=!0,u(b,0),u(b,20),setInterval(b,500))},g=(()=>{try{return Object.assign({},JSON.parse(localStorage.getItem(c)||"{}"))}catch{return{}}})(),y=()=>{g.time=o,g.failed=!1,g.fastNode=null;for(const t of l)((e,t)=>{let s;const r=n.createElement("link"),l=e=>{s&&(clearTimeout(s),s=0,e||(r.href="data:text/css;base64,"),r.remove(),t(e))};s=u(l,a),r.addEventListener("error",()=>l(!1)),r.addEventListener("load",()=>l(!0)),r.rel="stylesheet",r.text="text/css",r.href=e+f+o,n.head.insertAdjacentElement("afterbegin",r)})("https://"+t,e=>{e||t!==i||(r=!0,g.failed=!0),e&&!s&&(s=t),e&&!g.fastNode&&(g.fastNode=t),h()});u(()=>{r&&!s&&(s=l[1],h()),localStorage.setItem(c,JSON.stringify(g))},a+100)};if(g.time&&o-g.time<36e5&&g.failed&&g.fastNode)r=!0,s=g.fastNode,h(),u(y,1e3);else if(n.head)y();else{const j=new MutationObserver(()=>{n.head&&(j.disconnect(),y())});j.observe(n,{childList:!0,subtree:!0})}})(document);</script>
+<style>.mweb-charts{background:#fff;}
+body{ box-sizing: border-box;
+    margin: 0 auto;}
+@media print{
+    pre, code, pre code {
+     overflow: visible !important;
+     white-space: pre-wrap !important;       /* css-3 */
+     white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+     white-space: -pre-wrap !important;      /* Opera 4-6 */
+     white-space: -o-pre-wrap !important;    /* Opera 7 */
+     word-wrap: break-word !important;       /* Internet Explorer 5.5+ */
+    }
+    html,body{margin:0;padding:4px;}
+    .mweb-yaml{display:none;}
+}
+
+
+
+div.code-toolbar {
+  position: relative;
+}
+
+div.code-toolbar > .toolbar {
+  position: absolute;
+  z-index: 10;
+  top: .3em;
+  right: .2em;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+div.code-toolbar:hover > .toolbar {
+  opacity: 1;
+}
+
+/* Separate line b/c rules are thrown out if selector is invalid.
+   IE11 and old Edge versions don't support :focus-within. */
+div.code-toolbar:focus-within > .toolbar {
+  opacity: 1;
+}
+
+div.code-toolbar > .toolbar > .toolbar-item {
+  display: inline-block;
+}
+
+div.code-toolbar > .toolbar > .toolbar-item > a {
+  cursor: pointer;
+}
+
+div.code-toolbar > .toolbar > .toolbar-item > button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-user-select: none; /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+div.code-toolbar > .toolbar > .toolbar-item > a,
+div.code-toolbar > .toolbar > .toolbar-item > button,
+div.code-toolbar > .toolbar > .toolbar-item > span {
+  color: inherit;
+  font-size: .8em;
+  padding: 4px .5em;
+  background: #f5f2f0;
+  background: rgba(224, 224, 224, 0.4);
+  box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+  border-radius: .5em;
+}
+
+div.code-toolbar > .toolbar > .toolbar-item > a:hover,
+div.code-toolbar > .toolbar > .toolbar-item > a:focus,
+div.code-toolbar > .toolbar > .toolbar-item > button:hover,
+div.code-toolbar > .toolbar > .toolbar-item > button:focus,
+div.code-toolbar > .toolbar > .toolbar-item > span:hover,
+div.code-toolbar > .toolbar > .toolbar-item > span:focus {
+  color: inherit;
+  text-decoration: none;
+}
+</style><script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script><script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script><script>!function(){if("undefined"!=typeof Prism&&"undefined"!=typeof document){var e=[],t={},n=function(){};Prism.plugins.toolbar={};var a=Prism.plugins.toolbar.registerButton=function(n,a){var r;r="function"==typeof a?a:function(e){var t;return"function"==typeof a.onClick?((t=document.createElement("button")).type="button",t.addEventListener("click",(function(){a.onClick.call(this,e)}))):"string"==typeof a.url?(t=document.createElement("a")).href=a.url:t=document.createElement("span"),a.className&&t.classList.add(a.className),t.textContent=a.text,t},n in t?console.warn('There is a button with the key "'+n+'" registered already.'):e.push(t[n]=r)},r=Prism.plugins.toolbar.hook=function(a){var r=a.element.parentNode;var l=a.element.classList;if(l.contains('language-mermaid') || l.contains('language-echarts') || l.contains('language-plantuml')){return;} if(r&&/pre/i.test(r.nodeName)&&!r.parentNode.classList.contains("code-toolbar")){var o=document.createElement("div");o.classList.add("code-toolbar"),r.parentNode.insertBefore(o,r),o.appendChild(r);var i=document.createElement("div");i.classList.add("toolbar");var l=e,d=function(e){for(;e;){var t=e.getAttribute("data-toolbar-order");if(null!=t)return(t=t.trim()).length?t.split(/\s*,\s*/g):[];e=e.parentElement}}(a.element);d&&(l=d.map((function(e){return t[e]||n}))),l.forEach((function(e){var t=e(a);if(t){var n=document.createElement("div");n.classList.add("toolbar-item"),n.appendChild(t),i.appendChild(n)}})),o.appendChild(i)}};a("label",(function(e){var t=e.element.parentNode;if(t&&/pre/i.test(t.nodeName)&&t.hasAttribute("data-label")){var n,a,r=t.getAttribute("data-label");try{a=document.querySelector("template#"+r)}catch(e){}return a?n=a.content:(t.hasAttribute("data-url")?(n=document.createElement("a")).href=t.getAttribute("data-url"):n=document.createElement("span"),n.textContent=r),n}})),Prism.hooks.add("complete",r)}}();</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/toolbar/prism-toolbar.min.css"><script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script><style>div.code-toolbar > .toolbar > .toolbar-item > a, div.code-toolbar > .toolbar > .toolbar-item > button, div.code-toolbar > .toolbar > .toolbar-item > span {padding: 4px .5em; background: #f5f2f0; background: rgba(224, 224, 224, 0.4);}</style><script>window.MathJax = {     tex: { tags: 'ams', displayMath: [ ['\\[', '\\]'] ] } ,     startup: {     pageReady() {       return MathJax.startup.defaultPageReady().then(function () {          window.mweb_mathjax_ready_val = 'yes';          if(window.mweb_mathjax_ready !== undefined){ mweb_mathjax_ready(); }       });     }   }};document.addEventListener('DOMContentLoaded', function(event) {    if (typeof Prism != 'undefined') {         Prism.highlightAll();     }});window.mweb_mathjax_ready_val = '';function theMWebMathJaxRenderIsReady(key){ return window.mweb_mathjax_ready_val; }</script><script>window.MathJax = { tex: { tags: 'ams', displayMath: [ ['\\[', '\\]'] ] } }; </script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"></script> <style>body{max-width:788px; padding:14px;}</style></head><body><div id='markdown_content' class='markdown-body'><!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="theme-color" content="#060608"><title>C0DΞX HUB</title><style>:root{color-scheme:dark;--void:#060608;--deep:#0C0C12;--surface:rgba(14,14,20,.82);--lift:rgba(22,22,32,.76);--card:rgba(255,255,255,.052);--card-h:rgba(255,255,255,.08);--glass:rgba(12,12,18,.72);--glass2:rgba(255,255,255,.065);--line:rgba(255,255,255,.095);--line2:rgba(255,255,255,.052);--line3:rgba(255,255,255,.13);--t1:#FFFFFF;--t2:rgba(255,255,255,.70);--t3:rgba(255,255,255,.38);--t4:rgba(255,255,255,.22);--blue:#0A84FF;--blue-g:linear-gradient(135deg,#0A84FF,#30A8FF);--indigo:#5E5CE6;--teal:#32D74B;--orange:#FF9F0A;--pink:#FF375F;--cyan:#64D2FF;--purple:#BF5AF2;--red:#FF453A;--yellow:#FFD60A;--mint:#00C7BE;--blur-xs:blur(8px) saturate(140%);--blur-sm:blur(16px) saturate(160%);--blur-md:blur(28px) saturate(180%);--blur-lg:blur(48px) saturate(210%);--blur-xl:blur(72px) saturate(230%);--r-xs:7px;--r-sm:11px;--r-md:16px;--r-lg:22px;--r-xl:30px;--r-2xl:40px;--r-full:9999px;--sh-xs:0 1px 6px rgba(0,0,0,.44);--sh-sm:0 3px 16px rgba(0,0,0,.54);--sh-md:0 8px 32px rgba(0,0,0,.62);--sh-lg:0 20px 64px rgba(0,0,0,.78);--sh-xl:0 36px 90px rgba(0,0,0,.90);--sat:max(env(safe-area-inset-top),   16px);--sab:max(env(safe-area-inset-bottom),18px);--sal:max(env(safe-area-inset-left),  0px);--sar:max(env(safe-area-inset-right), 0px);--nav-h:80px}body.theme-light{color-scheme:light;--void:#F2F2F7;--deep:#E5E5EA;--surface:rgba(255,255,255,.78);--lift:rgba(255,255,255,.92);--card:rgba(255,255,255,.68);--card-h:rgba(255,255,255,.90);--glass:rgba(255,255,255,.68);--glass2:rgba(0,0,0,.042);--line:rgba(0,0,0,.09);--line2:rgba(0,0,0,.052);--line3:rgba(0,0,0,.13);--t1:#17171A;--t2:rgba(23,23,26,.72);--t3:rgba(23,23,26,.46);--t4:rgba(23,23,26,.28)}body.theme-sepia{--void:#1A140E;--deep:#231D12;--surface:rgba(46,36,24,.78);--lift:rgba(62,50,32,.78);--card:rgba(255,222,168,.06);--card-h:rgba(255,222,168,.10);--glass:rgba(44,34,22,.72);--glass2:rgba(255,222,168,.065);--line:rgba(255,222,168,.10);--line2:rgba(255,222,168,.055);--line3:rgba(255,222,168,.14);--t1:#F8E8D0;--t2:rgba(248,232,208,.72);--t3:rgba(248,232,208,.42);--t4:rgba(248,232,208,.24)}body.theme-midnight{--void:#000814;--deep:#001529;--surface:rgba(0,24,56,.82);--lift:rgba(0,36,78,.76);--card:rgba(64,180,255,.054);--card-h:rgba(64,180,255,.09);--glass:rgba(0,20,48,.72);--glass2:rgba(64,180,255,.065);--line:rgba(100,210,255,.11);--line2:rgba(100,210,255,.06);--line3:rgba(100,210,255,.15);--blue:#38B6FF}body.theme-emerald{--void:#041208;--deep:#081E0E;--surface:rgba(10,36,18,.82);--lift:rgba(16,52,28,.76);--card:rgba(50,215,75,.054);--card-h:rgba(50,215,75,.09);--glass:rgba(8,30,14,.72);--glass2:rgba(50,215,75,.065);--line:rgba(50,215,75,.11);--line2:rgba(50,215,75,.06);--line3:rgba(50,215,75,.15);--blue:#32D74B;--cyan:#80FF8A}*,::after,::before{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}html{height:100%;overflow:hidden;overscroll-behavior:none}body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",system-ui,sans-serif;background:var(--void);color:var(--t1);height:100dvh;display:flex;flex-direction:column;overflow:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;user-select:none;-webkit-user-select:none}button,input,select,textarea{font:inherit}button{border:0;color:inherit;cursor:pointer;background:0 0}input,select,textarea{width:100%;color:var(--t1);outline:0;background:0 0;border:0}textarea{resize:none}.bg-layer{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}.bg-orb{position:absolute;border-radius:50%;filter:blur(90px);will-change:transform;animation:orb-float 24s ease-in-out infinite alternate}.bg-orb:nth-child(1){width:520px;height:520px;top:-160px;left:-100px;background:radial-gradient(circle,rgba(10,132,255,.16) 0,transparent 70%);animation-duration:26s}.bg-orb:nth-child(2){width:420px;height:420px;bottom:-60px;right:-80px;background:radial-gradient(circle,rgba(94,92,230,.13) 0,transparent 70%);animation-duration:21s;animation-direction:alternate-reverse}.bg-orb:nth-child(3){width:280px;height:280px;top:38%;left:28%;background:radial-gradient(circle,rgba(191,90,242,.09) 0,transparent 70%);animation-duration:31s}.bg-orb:nth-child(4){width:200px;height:200px;top:62%;right:22%;background:radial-gradient(circle,rgba(50,215,75,.07) 0,transparent 70%);animation-duration:37s;animation-direction:alternate-reverse}@keyframes orb-float{from{transform:translate(0,0) scale(1)}to{transform:translate(44px,54px) scale(1.14)}}#lockScreen{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(0,0,0,.92);backdrop-filter:var(--blur-xl);-webkit-backdrop-filter:var(--blur-xl);transition:opacity .45s cubic-bezier(.4,0,.2,1),transform .45s cubic-bezier(.4,0,.2,1);padding:var(--sat) 24px var(--sab);gap:0}#lockScreen.hidden{opacity:0;transform:scale(1.035);pointer-events:none}.lock-brand{font-size:11px;font-weight:800;letter-spacing:5px;text-transform:uppercase;color:var(--t3);margin-bottom:32px}.lock-time{font-size:82px;font-weight:200;letter-spacing:-5px;color:var(--t1);line-height:1}.lock-date{font-size:15px;font-weight:400;color:var(--t2);text-transform:capitalize;margin-top:4px;margin-bottom:44px;letter-spacing:.2px}.bio-btn{width:76px;height:76px;border-radius:50%;background:var(--glass2);border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;font-size:34px;cursor:pointer;box-shadow:var(--sh-md),inset 0 1px 0 rgba(255,255,255,.09);backdrop-filter:var(--blur-sm);-webkit-backdrop-filter:var(--blur-sm);transition:transform .18s,background .2s,box-shadow .2s;overflow:hidden;margin-bottom:14px}.bio-btn:active{transform:scale(.9);background:rgba(10,132,255,.22);box-shadow:0 0 0 6px rgba(10,132,255,.15)}.bio-btn img{width:100%;height:100%;object-fit:cover;border-radius:50%}.bio-ring{position:absolute;width:86px;height:86px;border-radius:50%;border:2px solid rgba(10,132,255,0);transition:border-color .3s,transform .3s,opacity .3s;pointer-events:none}.bio-ring.pulse{border-color:rgba(10,132,255,.5);animation:ring-pulse 1.4s ease-out infinite}@keyframes ring-pulse{0%{transform:scale(1);opacity:1}100%{transform:scale(1.6);opacity:0}}.bio-label{font-size:12px;color:var(--t3);font-weight:600;margin-bottom:28px}.lock-pin-dots{display:flex;gap:13px;margin-bottom:18px;min-height:13px}.pin-dot{width:12px;height:12px;border-radius:50%;background:var(--t4);border:1.5px solid var(--t3);transition:background .14s,transform .14s,border-color .14s}.pin-dot.filled{background:var(--blue);border-color:var(--blue);transform:scale(1.12)}.pin-pad{display:grid;grid-template-columns:repeat(3,68px);gap:12px;margin-top:4px}.pin-key{width:68px;height:68px;border-radius:50%;background:rgba(255,255,255,.1);font-size:22px;font-weight:300;color:var(--t1);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;backdrop-filter:var(--blur-xs);-webkit-backdrop-filter:var(--blur-xs);transition:background .12s,transform .1s;line-height:1}.pin-key:active{background:rgba(255,255,255,.24);transform:scale(.91)}.pin-key .sub{font-size:9px;letter-spacing:1.5px;color:var(--t3);font-weight:700}.pin-key.del{background:0 0;font-size:20px}.pin-key.empty{opacity:0;pointer-events:none}.lock-error{color:var(--pink);font-size:13px;font-weight:600;min-height:18px;margin-top:8px;text-align:center}#appShell{position:relative;z-index:1;height:100dvh;display:flex;flex-direction:column;overflow:hidden}.status-bar{flex-shrink:0;padding:var(--sat) 20px 4px;display:flex;justify-content:space-between;align-items:center;color:var(--t2);font-size:12px;font-weight:700}.sb-right{display:flex;gap:7px;align-items:center}.app-header{flex-shrink:0;padding:6px 18px 10px;display:flex;justify-content:space-between;align-items:flex-end}.app-eyebrow{color:var(--t3);font-size:10px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase}.app-title{margin-top:2px;font-size:30px;font-weight:850;letter-spacing:-1.2px;line-height:1.03}.app-title span{color:var(--blue)}.header-actions{display:flex;gap:8px}.hdr-btn{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--glass);border:1px solid var(--line);backdrop-filter:var(--blur-sm);-webkit-backdrop-filter:var(--blur-sm);box-shadow:var(--sh-xs);font-size:16px;transition:transform .12s,background .12s}.hdr-btn:active{transform:scale(.91);background:var(--card-h)}.scroll-area{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;padding:0 14px calc(var(--nav-h) + var(--sab) + 16px);scrollbar-width:none}.scroll-area::-webkit-scrollbar{display:none}.ptr-indicator{height:0;overflow:hidden;display:grid;place-items:center;color:var(--t3);font-size:12px;font-weight:700;transition:height .18s ease}.ptr-indicator.active{height:38px}.view{display:none;flex-direction:column;gap:12px}.view.active{display:flex;animation:view-in .24s cubic-bezier(.4,0,.2,1) both}@keyframes view-in{from{opacity:0;transform:translate3d(0,12px,0)}to{opacity:1;transform:translate3d(0,0,0)}}.card{background:var(--glass);border:1px solid var(--line);border-radius:var(--r-lg);backdrop-filter:var(--blur-md);-webkit-backdrop-filter:var(--blur-md);box-shadow:var(--sh-xs);overflow:hidden}.card-pad{padding:15px}.card-header{display:flex;justify-content:space-between;align-items:center;padding:14px 15px 0;gap:10px}.card-label{color:var(--t3);font-size:10px;font-weight:850;letter-spacing:1.5px;text-transform:uppercase}.card-action{background:0 0;color:var(--blue);font-size:13px;font-weight:750}.bento{display:grid;grid-template-columns:1fr 1fr;gap:10px}.bento-item{position:relative;min-height:106px;padding:16px 14px 15px;display:flex;flex-direction:column;justify-content:flex-end;gap:7px;overflow:hidden;border-radius:var(--r-lg);border:1px solid var(--line);background:var(--glass);backdrop-filter:var(--blur-md);-webkit-backdrop-filter:var(--blur-md);box-shadow:var(--sh-xs);transition:transform .13s,background .13s;text-align:left}.bento-item:active{transform:scale(.965);background:var(--card-h)}.bento-item.wide{grid-column:span 2;min-height:116px}.bento-glow{position:absolute;inset:0;opacity:.07;pointer-events:none;border-radius:inherit}.bento-accent{position:absolute;inset:0 auto 0 0;width:3px;border-radius:2px 0 0 2px}.bento-item[data-color=blue] .bento-accent,.bento-item[data-color=blue] .bento-glow{background:var(--blue)}.bento-item[data-color=indigo] .bento-accent,.bento-item[data-color=indigo] .bento-glow{background:var(--indigo)}.bento-item[data-color=teal] .bento-accent,.bento-item[data-color=teal] .bento-glow{background:var(--teal)}.bento-item[data-color=orange] .bento-accent,.bento-item[data-color=orange] .bento-glow{background:var(--orange)}.bento-item[data-color=pink] .bento-accent,.bento-item[data-color=pink] .bento-glow{background:var(--pink)}.bento-item[data-color=purple] .bento-accent,.bento-item[data-color=purple] .bento-glow{background:var(--purple)}.bento-item[data-color=cyan] .bento-accent,.bento-item[data-color=cyan] .bento-glow{background:var(--cyan)}.bento-item[data-color=mint] .bento-accent,.bento-item[data-color=mint] .bento-glow{background:var(--mint)}.bento-icon{position:absolute;top:14px;left:14px;font-size:26px}.bento-badge{position:absolute;top:12px;right:12px;min-width:18px;padding:2px 7px;border-radius:var(--r-full);background:var(--pink);color:#fff;font-size:10px;font-weight:850}.bento-name{font-size:14px;font-weight:800;color:var(--t1)}.bento-sub{font-size:11px;font-weight:600;color:var(--t3)}.pausa-hero{padding:20px 16px 14px;text-align:center;background:linear-gradient(180deg,rgba(10,132,255,.07) 0,transparent 100%)}.pausa-kicker{font-size:10px;font-weight:850;letter-spacing:1.8px;text-transform:uppercase;color:var(--t3);margin-bottom:4px}.pausa-formula{font-size:12px;color:var(--t3);min-height:16px;margin-bottom:6px;font-variant-numeric:tabular-nums}.pausa-result{font-size:68px;font-weight:850;letter-spacing:-4px;color:var(--blue);line-height:1;transition:transform .22s cubic-bezier(.34,1.56,.64,1);font-variant-numeric:tabular-nums}.pausa-result.bump{transform:scale(1.05)}.pausa-badge{display:inline-block;margin-top:10px;padding:5px 16px;border-radius:var(--r-full);font-size:12px;font-weight:700;letter-spacing:.2px}.pausa-badge.ok{background:rgba(50,215,75,.14);color:var(--teal)}.pausa-badge.warn{background:rgba(255,159,10,.14);color:var(--orange)}.pausa-badge.err{background:rgba(255,55,95,.14);color:var(--pink)}.pausa-badge.idle{background:rgba(255,255,255,.08);color:var(--t3)}.p-track{height:4px;margin:12px 16px 0;background:var(--line2);border-radius:var(--r-full);overflow:hidden}.p-fill{height:100%;width:0%;background:linear-gradient(90deg,var(--blue),var(--cyan));border-radius:inherit;transition:width .5s ease}.pausa-inputs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line2)}.p-input-cell{background:var(--glass);padding:14px 15px;display:flex;flex-direction:column;gap:6px}.p-input-cell:first-child{border-radius:0}.p-cell-label{font-size:10px;font-weight:850;letter-spacing:1.4px;text-transform:uppercase;color:var(--t3)}.p-cell-sub{font-size:10px;color:var(--t4);font-weight:600;margin-top:-3px}.p-time-input{background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:var(--r-sm);padding:8px 10px;font-size:22px;font-weight:700;color:var(--t1);text-align:center;font-variant-numeric:tabular-nums;-webkit-appearance:none;outline:0;transition:border-color .15s,box-shadow .15s;width:100%}.p-time-input:focus{border-color:rgba(10,132,255,.7);box-shadow:0 0 0 4px rgba(10,132,255,.15)}.p-time-input::-webkit-calendar-picker-indicator{display:none}.preset-row{display:flex;gap:7px;padding:12px 15px 0;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}.preset-row::-webkit-scrollbar{display:none}.p-chip{flex-shrink:0;padding:7px 14px;border-radius:var(--r-full);background:rgba(255,255,255,.07);border:1px solid var(--line);font-size:13px;font-weight:600;color:var(--t2);transition:background .15s,color .15s,border-color .15s}.p-chip.sel{background:rgba(10,132,255,.18);color:var(--blue);border-color:rgba(10,132,255,.38)}.p-adj-row{display:flex;gap:6px;padding:10px 15px 14px;flex-wrap:wrap}.p-adj-btn{padding:6px 12px;border-radius:var(--r-full);background:rgba(255,255,255,.07);border:1px solid var(--line);color:var(--blue);font-size:13px;font-weight:700;transition:background .12s}.p-adj-btn:active{background:rgba(10,132,255,.16)}.stats-2x2{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line2)}.s-cell{padding:13px 15px;background:var(--glass);display:flex;flex-direction:column;gap:3px}.s-val{font-size:22px;font-weight:850;letter-spacing:-.6px;color:var(--t1);font-variant-numeric:tabular-nums}.s-lbl{font-size:10px;font-weight:850;color:var(--t3);text-transform:uppercase;letter-spacing:.6px}.pausa-hist-row{display:flex;gap:11px;align-items:center;padding:12px 15px;border-bottom:1px solid var(--line2)}.pausa-hist-row:last-child{border-bottom:0}.pausa-hist-icon{width:36px;height:36px;border-radius:var(--r-xs);background:rgba(10,132,255,.13);display:grid;place-items:center;font-size:16px;flex-shrink:0}.pausa-hist-body{flex:1;min-width:0}.pausa-hist-title{font-size:14px;font-weight:800;color:var(--t1);font-variant-numeric:tabular-nums}.pausa-hist-sub{font-size:11px;color:var(--t3);margin-top:2px}.chip-row{display:flex;gap:7px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}.chip-row::-webkit-scrollbar{display:none}.chip{flex:0 0 auto;padding:7px 13px;border-radius:var(--r-full);border:1px solid var(--line);background:rgba(255,255,255,.06);color:var(--t2);font-size:12px;font-weight:750}.chip.active{color:var(--blue);background:rgba(10,132,255,.14);border-color:rgba(10,132,255,.32)}.article{padding:15px;user-select:text;-webkit-user-select:text}.article h2{margin-bottom:7px;font-size:19px;letter-spacing:-.4px}.article .article-badge{display:inline-flex;margin-bottom:12px;padding:3px 9px;border-radius:var(--r-full);color:var(--blue);background:rgba(10,132,255,.13);font-size:10px;font-weight:850}.article li,.article p{color:var(--t2);font-size:14px;line-height:1.64}.article ul{padding-left:18px;margin:8px 0 10px}.article pre{margin:11px 0;padding:12px;overflow:auto;border-radius:var(--r-sm);border:1px solid var(--line);background:rgba(0,0,0,.36);color:rgba(255,255,255,.88);font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;font-size:12px;line-height:1.5;user-select:text;-webkit-user-select:text}.float-note{position:fixed;z-index:170;display:none;padding:8px 12px;border-radius:var(--r-full);border:1px solid rgba(10,132,255,.35);background:rgba(10,132,255,.92);color:#fff;box-shadow:var(--sh-md);font-size:12px;font-weight:850}.float-note.open{display:block}.list{display:flex;flex-direction:column}.list-item{display:flex;gap:11px;align-items:flex-start;padding:13px 14px;border-bottom:1px solid var(--line2);text-align:left;background:0 0}.list-item:last-child{border-bottom:0}.list-icon{flex:0 0 auto;width:36px;height:36px;display:grid;place-items:center;border-radius:var(--r-xs);background:rgba(10,132,255,.13);font-size:17px}.list-body{flex:1;min-width:0}.list-title{font-size:14px;font-weight:800;color:var(--t1);word-break:break-word}.list-sub{margin-top:3px;color:var(--t3);font-size:11px;line-height:1.45}.list-code{margin-top:7px;padding:9px 10px;max-height:86px;overflow:auto;border-radius:var(--r-xs);border:1px solid var(--line2);background:rgba(0,0,0,.32);color:rgba(255,255,255,.8);font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;font-size:11px;line-height:1.45;white-space:pre-wrap;user-select:text;-webkit-user-select:text}.tag-row{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.tag{display:inline-flex;padding:3px 7px;border-radius:var(--r-full);background:rgba(10,132,255,.13);color:var(--blue);font-size:10px;font-weight:850}.form-grid{display:grid;gap:10px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.field-label{display:block;margin-bottom:6px;color:var(--t3);font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase}.input-field{min-height:43px;padding:10px 12px;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:var(--r-sm);color:var(--t1);transition:border-color .15s,box-shadow .15s}.input-field:focus{border-color:rgba(10,132,255,.68);box-shadow:0 0 0 4px rgba(10,132,255,.14)}select.input-field{-webkit-appearance:none;appearance:none}textarea.input-field{resize:vertical;min-height:84px}.action-row{display:flex;flex-wrap:wrap;gap:8px}.btn{min-height:42px;padding:10px 14px;border-radius:var(--r-sm);background:rgba(255,255,255,.075);border:1px solid var(--line);color:var(--t1);font-weight:800;font-size:13px;backdrop-filter:var(--blur-xs);-webkit-backdrop-filter:var(--blur-xs);transition:transform .1s,opacity .1s}.btn:active{transform:scale(.97);opacity:.88}.btn.primary{background:rgba(10,132,255,.88);border-color:rgba(10,132,255,.44);color:#fff}.btn.teal{background:rgba(50,215,75,.18);border-color:rgba(50,215,75,.3);color:var(--teal)}.btn.orange{background:rgba(255,159,10,.16);border-color:rgba(255,159,10,.28);color:var(--orange)}.btn.pink{background:rgba(255,55,95,.14);border-color:rgba(255,55,95,.26);color:var(--pink)}.btn.ghost{background:0 0}.btn.w-full{width:100%;justify-content:center}.btn.embarcadero{background:rgba(0,122,255,.2);border-color:rgba(0,122,255,.4);color:#64d2ff;width:100%}.settings-group{font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--t3);padding:0 2px 4px}.mod-row{display:flex;align-items:center;gap:12px;padding:13px 15px;border-bottom:1px solid var(--line2)}.mod-row:last-child{border-bottom:0}.mod-icon{width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0}.mod-icon.blue{background:rgba(10,132,255,.18)}.mod-icon.indigo{background:rgba(94,92,230,.18)}.mod-icon.teal{background:rgba(50,215,75,.18)}.mod-icon.orange{background:rgba(255,159,10,.18)}.mod-icon.pink{background:rgba(255,55,95,.18)}.mod-icon.purple{background:rgba(191,90,242,.18)}.mod-body{flex:1;min-width:0}.mod-label{font-size:14px;font-weight:700;color:var(--t1)}.mod-sub{font-size:11px;color:var(--t3);margin-top:1px}.toggle-wrap{position:relative;width:51px;height:31px;cursor:pointer;flex-shrink:0}.toggle-wrap input{opacity:0;width:0;height:0;position:absolute}.t-track{position:absolute;inset:0;background:rgba(255,255,255,.15);border-radius:var(--r-full);transition:background .25s}.toggle-wrap input:checked+.t-track{background:var(--teal)}.t-thumb{position:absolute;top:2px;left:2px;width:27px;height:27px;background:#fff;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,.4);transition:transform .25s cubic-bezier(.34,1.56,.64,1)}.toggle-wrap input:checked~.t-thumb{transform:translateX(20px)}.profile-card{padding:22px 16px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px}.profile-ring{width:74px;height:74px;border-radius:50%;overflow:hidden;margin-bottom:6px;border:2px solid var(--line3);box-shadow:var(--sh-md);background:linear-gradient(135deg,var(--blue),var(--purple));display:flex;align-items:center;justify-content:center;font-size:34px}.profile-ring img{width:100%;height:100%;object-fit:cover}.profile-name{font-size:18px;font-weight:800;letter-spacing:-.3px}.profile-sub{font-size:13px;color:var(--t3)}.theme-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;padding:0}.theme-swatch{aspect-ratio:1;border-radius:var(--r-sm);cursor:pointer;display:flex;align-items:flex-end;justify-content:flex-end;padding:4px;border:2px solid transparent;overflow:hidden;transition:border-color .15s,transform .12s}.theme-swatch:active{transform:scale(.92)}.theme-swatch.active{border-color:var(--blue);box-shadow:0 0 0 4px rgba(10,132,255,.18)}.theme-swatch span{font-size:9px;font-weight:800;color:rgba(255,255,255,.8);line-height:1}.avatar-grid{display:flex;gap:8px;flex-wrap:wrap;padding:4px 0}.av-btn{width:52px;height:52px;border-radius:var(--r-md);background:var(--glass2);border:1.5px solid var(--line);font-size:24px;display:grid;place-items:center;transition:border-color .12s,transform .12s}.av-btn:active{transform:scale(.92);border-color:var(--blue)}.av-btn.active{border-color:var(--blue);background:rgba(10,132,255,.14)}.bottom-nav{position:fixed;z-index:50;left:0;right:0;bottom:0;height:calc(var(--nav-h) + var(--sab));padding:8px 4px var(--sab);display:flex;justify-content:space-around;align-items:flex-start;border-top:1px solid var(--line);background:rgba(0,0,0,.7);backdrop-filter:var(--blur-lg);-webkit-backdrop-filter:var(--blur-lg)}.nav-item{position:relative;flex:1;max-width:76px;min-height:54px;display:grid;place-items:center;gap:1px;grid-template-rows:auto auto;border-radius:var(--r-sm);background:0 0;color:var(--t3)}.nav-icon{font-size:22px;line-height:1}.nav-lbl{font-size:9.5px;font-weight:800}.nav-dot{position:absolute;top:1px;width:4px;height:4px;border-radius:50%;background:var(--blue);opacity:0}.nav-item.active{color:var(--blue)}.nav-item.active .nav-dot{opacity:1}.sheet-backdrop{position:fixed;inset:0;z-index:180;display:none;background:rgba(0,0,0,.46);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}.sheet-backdrop.open{display:block}.sheet{position:fixed;z-index:190;left:10px;right:10px;bottom:calc(var(--sab) + 8px);max-height:80dvh;overflow:auto;display:none;padding:10px 14px 16px;border:1px solid var(--line);border-radius:var(--r-xl);background:var(--surface);backdrop-filter:var(--blur-lg);-webkit-backdrop-filter:var(--blur-lg);box-shadow:var(--sh-xl)}.sheet.open{display:block;animation:sheet-in .2s cubic-bezier(.4,0,.2,1) both}@keyframes sheet-in{from{transform:translate3d(0,20px,0);opacity:.5}to{transform:translate3d(0,0,0);opacity:1}}.sheet-handle{width:40px;height:5px;margin:0 auto 13px;border-radius:var(--r-full);background:var(--line)}.sheet-title{font-size:18px;font-weight:850;letter-spacing:-.4px;margin:0 2px 12px}.sheet-body{display:grid;gap:11px}.toast{position:fixed;z-index:250;left:50%;bottom:calc(var(--nav-h) + var(--sab) + 20px);max-width:min(88vw,340px);transform:translate3d(-50%,18px,0);opacity:0;pointer-events:none;padding:11px 16px;border-radius:var(--r-full);border:1px solid var(--line);background:rgba(0,0,0,.78);color:#fff;backdrop-filter:var(--blur-md);-webkit-backdrop-filter:var(--blur-md);box-shadow:var(--sh-md);font-size:13px;font-weight:750;transition:transform .18s ease,opacity .18s ease;display:flex;align-items:center;gap:7px}.toast.open{transform:translate3d(-50%,0,0);opacity:1}.empty-state{padding:30px 18px;display:grid;place-items:center;text-align:center;color:var(--t3);gap:8px}.empty-icon{font-size:30px}.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line2)}.stat{padding:13px 14px;background:var(--glass)}.stat-value{font-size:22px;font-weight:850;letter-spacing:-.7px;font-variant-numeric:tabular-nums}.stat-label{margin-top:2px;color:var(--t3);font-size:10px;font-weight:850;text-transform:uppercase;letter-spacing:.6px}.sep{height:1px;background:var(--line2);margin:2px 0}.small-note{color:var(--t3);font-size:12px;line-height:1.52}.mit-footer{padding:20px 10px 6px;color:var(--t3);text-align:center;font-size:11px;line-height:1.6}.mit-footer strong{color:var(--t2)}.mit-footer .mit-sig{margin-top:6px;font-size:13px;font-weight:800;letter-spacing:.5px;color:var(--t1)}.mit-footer .mit-ver{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--blue);margin-top:2px}.backup-info{font-size:12px;color:var(--t3);line-height:1.5;padding:0 2px}.article::-webkit-scrollbar{width:3px}.article::-webkit-scrollbar-thumb{background:var(--line);border-radius:2px}.swipe-hint{position:fixed;left:0;top:50%;transform:translateY(-50%);width:4px;height:60px;background:rgba(10,132,255,.3);border-radius:0 4px 4px 0;z-index:60;transition:opacity .3s;pointer-events:none}@media(min-width:700px){#appShell{max-width:440px;margin:0 auto;border-left:1px solid var(--line2);border-right:1px solid var(--line2)}.bottom-nav{left:50%;width:440px;transform:translateX(-50%);border-left:1px solid var(--line2);border-right:1px solid var(--line2)}.toast{bottom:calc(var(--nav-h) + var(--sab) + 24px)}}@media(prefers-reduced-motion:reduce){.bg-orb{animation:none!important}*{transition-duration:NaNs!important;animation-duration:NaNs!important}}</style></head><body><div class="bg-layer" aria-hidden="true"><div class="bg-orb"></div><div class="bg-orb"></div><div class="bg-orb"></div><div class="bg-orb"></div></div><section id="lockScreen" aria-label="Tela de bloqueio"><div class="lock-brand">C0DΞX HUB</div><div class="lock-time" id="lockTime">--:--</div><div class="lock-date" id="lockDate">--</div><div style="position:relative;display:flex;align-items:center;justify-content:center;margin-bottom:14px"><div class="bio-ring" id="bioRing"></div><button class="bio-btn" id="biometricBtn" type="button" aria-label="Face ID / Touch ID"><span id="bioIcon">🔒</span></button></div><div class="bio-label" id="bioLabel">Toque para Face ID · PIN abaixo</div><div class="lock-pin-dots" id="pinDots" aria-label="Dígitos inseridos"></div><div class="pin-pad" id="pinPad" aria-label="Teclado de acesso"></div><div class="lock-error" id="lockError" role="alert"></div></section><main id="appShell"><div class="status-bar"><div id="statusTime">--:--</div><div class="sb-right"><span>⌁</span><span>Wi‑Fi</span><span>▰</span></div></div><header class="app-header"><div><div class="app-eyebrow" id="viewEyebrow">Offline-first</div><h1 class="app-title">C0DΞX<span>HUB</span></h1></div><div class="header-actions"><button class="hdr-btn" type="button" data-action="open-settings" aria-label="Configurações">⚙️</button><button class="hdr-btn" type="button" data-action="lock" aria-label="Bloquear">🔒</button></div></header><section class="scroll-area" id="scrollArea"><div class="ptr-indicator" id="ptrIndicator">↻ Atualizando</div><section class="view active" id="view-home" data-title="Offline-first"><div class="bento"><button class="bento-item wide" type="button" data-view="pausa" data-color="blue"><span class="bento-glow"></span><span class="bento-accent"></span><span class="bento-icon">⏱️</span><span class="bento-badge" id="homePausaBadge">0</span><span class="bento-name">Ponto / Pausa</span><span class="bento-sub" id="homePausaSub">Controle de saída, retorno e histórico.</span></button><button class="bento-item" type="button" data-view="wiki" data-color="indigo"><span class="bento-glow"></span><span class="bento-accent"></span><span class="bento-icon">📚</span><span class="bento-name">Wiki Delphi</span><span class="bento-sub">Pesquisa online/offline.</span></button><button class="bento-item" type="button" data-view="vault" data-color="teal"><span class="bento-glow"></span><span class="bento-accent"></span><span class="bento-icon">🧠</span><span class="bento-badge" id="homeVaultBadge">0</span><span class="bento-name">Vault</span><span class="bento-sub">Snippets e notas.</span></button><button class="bento-item" type="button" data-view="agenda" data-color="orange"><span class="bento-glow"></span><span class="bento-accent"></span><span class="bento-icon">✅</span><span class="bento-badge" id="homeTaskBadge">0</span><span class="bento-name">Agenda</span><span class="bento-sub">Tarefas com alertas.</span></button><button class="bento-item" type="button" data-view="settings" data-color="purple"><span class="bento-glow"></span><span class="bento-accent"></span><span class="bento-icon">🛠️</span><span class="bento-name">Config</span><span class="bento-sub">Tema, backup, PIN.</span></button></div><div class="card"><div class="card-header"><div class="card-label">Resumo local</div><button class="card-action" type="button" data-action="export-backup">Exportar</button></div><div class="stat-grid"><div class="stat"><div class="stat-value" id="statBreaks">0</div><div class="stat-label">Pausas</div></div><div class="stat"><div class="stat-value" id="statVault">0</div><div class="stat-label">Notas</div></div><div class="stat"><div class="stat-value" id="statTasks">0</div><div class="stat-label">Tarefas</div></div><div class="stat"><div class="stat-value" id="statTheme">Dark</div><div class="stat-label">Tema</div></div></div></div><footer class="mit-footer"><strong>MIT License</strong><br><div class="mit-sig">Danilo | Desenvolvedor | Delphi</div><div class="mit-ver">C0DΞX HUB v4.0</div></footer></section><section class="view" id="view-pausa" data-title="Módulo de Ponto"><div class="card"><div class="pausa-hero"><div class="pausa-kicker">Retorno estimado</div><div class="pausa-formula" id="pFormula">Defina saída e duração</div><div class="pausa-result" id="pResult">--:--</div><div class="pausa-badge idle" id="pBadge">Aguardando configuração</div></div><div class="p-track"><div class="p-fill" id="pFill"></div></div><div class="pausa-inputs"><div class="p-input-cell"><div class="p-cell-label">Hora de Saída</div><div class="p-cell-sub">Quando você saiu</div><input class="p-time-input" type="time" id="pSaida" aria-label="Hora de saída"></div><div class="p-input-cell"><div class="p-cell-label">Duração da Pausa</div><div class="p-cell-sub" id="pDuracaoSub">1h12 recomendado</div><input class="p-time-input" type="time" id="pDuracao" aria-label="Duração da pausa (hh:mm)"></div></div><div class="preset-row" id="pPresets" aria-label="Presets de pausa"></div><div class="p-adj-row"><button class="p-adj-btn" type="button" data-adj="5">+5m</button><button class="p-adj-btn" type="button" data-adj="10">+10m</button><button class="p-adj-btn" type="button" data-adj="15">+15m</button><button class="p-adj-btn" type="button" data-adj="-5">−5m</button><button class="p-adj-btn" type="button" data-adj="-10">−10m</button></div></div><div class="card card-pad"><div class="action-row"><button class="btn primary" type="button" data-action="start-break-now">⏺ Gravar agora</button><button class="btn teal" type="button" data-action="start-break-manual">✏️ Gravar manual</button><button class="btn pink" type="button" data-action="finish-break">✔️ Finalizar</button></div></div><div class="card"><div class="card-header"><div class="card-label">Estatísticas da pausa</div></div><div class="stats-2x2"><div class="s-cell"><div class="s-val" id="sTotal">--</div><div class="s-lbl">Total</div></div><div class="s-cell"><div class="s-val" id="sFalta">--</div><div class="s-lbl">Faltam</div></div><div class="s-cell"><div class="s-val" id="sPct">--%</div><div class="s-lbl">Consumido</div></div><div class="s-cell"><div class="s-val" id="sMeio">--:--</div><div class="s-lbl">Meia Pausa</div></div></div></div><div class="card"><div class="card-header"><div class="card-label">Histórico</div><button class="card-action" type="button" data-action="clear-break-history">Limpar</button></div><div id="breakHistoryList"></div></div><button class="btn w-full" type="button" data-action="share-pausa" style="background:rgba(37,211,102,.18);border-color:rgba(37,211,102,.3);color:#25d366">💬 Enviar via WhatsApp</button></section><section class="view" id="view-wiki" data-title="Wiki Delphi"><div class="card card-pad form-grid"><label><span class="field-label">Pesquisa Global (DocWiki + Cache Local)</span><input class="input-field" id="wikiSearchInput" type="search" placeholder="Ex.: try finally, FireDAC"></label><button class="btn embarcadero" type="button" data-action="search-online">🌐 Buscar Direto na Embarcadero DocWiki</button><div class="action-row"><button class="btn primary" type="button" data-action="search-wiki">Buscar offline</button><button class="btn teal" type="button" data-action="save-wiki-search">Salvar pesquisa</button><button class="btn ghost" type="button" data-action="close-article" style="color:var(--t3)">← Fechar artigo</button></div></div><div class="chip-row" id="wikiCategories"></div><div class="card"><div class="card-header"><div class="card-label">Resultados Locais (Cache)</div></div><div id="wikiResults"></div><article class="article" id="wikiArticle" hidden></article></div></section><section class="view" id="view-vault" data-title="Vault Delphi"><div class="card card-pad form-grid"><label><span class="field-label">Título</span><input class="input-field" id="vaultTitle" type="text" placeholder="Ex.: Try..Finally em DataModule"></label><label><span class="field-label">Conteúdo / snippet</span><textarea class="input-field" id="vaultBody" placeholder="Cole aqui sua anotação ou código…"></textarea></label><label><span class="field-label">Tags</span><input class="input-field" id="vaultTags" type="text" placeholder="#Delphi #Memoria #Firebird"></label><div class="action-row"><button class="btn primary" type="button" data-action="add-vault">Salvar nota</button><button class="btn orange" type="button" data-action="share-vault-summary">Compartilhar</button></div></div><div class="card"><div class="card-header"><div class="card-label">Notas salvas</div><button class="card-action" type="button" data-action="clear-vault">Limpar</button></div><div class="list" id="vaultList"></div></div></section><section class="view" id="view-agenda" data-title="Agenda e Alertas"><div class="card card-pad form-grid"><label><span class="field-label">Tarefa</span><input class="input-field" id="taskTitle" type="text" placeholder="Ex.: Revisar tratamento de memória"></label><div class="form-row"><label><span class="field-label">Data</span><input class="input-field" id="taskDate" type="date"></label><label><span class="field-label">Hora</span><input class="input-field" id="taskTime" type="time"></label></div><div class="action-row"><button class="btn primary" type="button" data-action="add-task">Adicionar</button><button class="btn teal" type="button" data-action="ask-notifications">🔔 Ativar alertas</button></div></div><div class="card"><div class="card-header"><div class="card-label">Tarefas</div><button class="card-action" type="button" data-action="clear-done-tasks">Limpar concluídas</button></div><div class="list" id="taskList"></div></div></section><section class="view" id="view-settings" data-title="Configurações"><div class="card"><div class="profile-card"><div class="profile-ring" id="profileRing">⚡</div><div class="profile-name" id="profileName">Danilo | Dev | Delphi</div><div class="profile-sub">C0DΞX HUB v4.0</div></div></div><div class="settings-group">Segurança</div><div class="card"><div class="mod-row"><div class="mod-icon blue">🔐</div><div class="mod-body"><div class="mod-label">Face ID / Touch ID</div><div class="mod-sub" id="bioStatus">Autenticar com biometria</div></div><label class="toggle-wrap"><input type="checkbox" id="toggleBio" checked="checked"><div class="t-track"></div><div class="t-thumb"></div></label></div><div class="mod-row"><div class="mod-icon indigo">🔑</div><div class="mod-body"><div class="mod-label">PIN local</div><div class="mod-sub">4 a 8 dígitos</div></div><input class="input-field" id="cfgPin" type="password" inputmode="numeric" maxlength="8" placeholder="1234" style="width:90px;text-align:center;font-weight:800;font-size:18px;letter-spacing:4px"></div><div class="mod-row"><div class="mod-icon orange">🔒</div><div class="mod-body"><div class="mod-label">Bloquear agora</div></div><button class="btn" type="button" data-action="lock" style="padding:6px 12px;font-size:12px">Bloquear</button></div></div><div class="settings-group">Tema</div><div class="card card-pad"><div class="theme-grid" id="themeGrid"><div class="theme-swatch active" data-theme="dark" style="background:#060608"><span>Dark</span></div><div class="theme-swatch" data-theme="light" style="background:#f2f2f7"><span style="color:#333">Light</span></div><div class="theme-swatch" data-theme="sepia" style="background:#1a140e"><span>Sepia</span></div><div class="theme-swatch" data-theme="midnight" style="background:#000814"><span>Night</span></div><div class="theme-swatch" data-theme="emerald" style="background:#041208"><span>Mint</span></div></div></div><div class="settings-group">Perfil</div><div class="card card-pad form-grid"><label><span class="field-label">Nome de exibição</span><input class="input-field" id="cfgDisplayName" type="text" placeholder="Seu nome"></label><div class="field-label">Avatar</div><div class="avatar-grid" id="avatarGrid"><button class="av-btn" type="button" data-avatar="⚡">⚡</button><button class="av-btn" type="button" data-avatar="🧠">🧠</button><button class="av-btn" type="button" data-avatar="🐉">🐉</button><button class="av-btn" type="button" data-avatar="🦊">🦊</button><button class="av-btn" type="button" data-avatar="🛡️">🛡️</button><button class="av-btn" type="button" data-avatar="💻">💻</button><button class="av-btn" type="button" data-avatar="🤖">🤖</button><button class="av-btn active" type="button" data-avatar="📱">📱</button></div><button class="btn teal" type="button" data-action="upload-avatar">📷 Importar foto</button><input id="avatarUpload" type="file" accept="image/*" hidden><button class="btn primary" type="button" data-action="save-settings">Salvar configurações</button></div><div class="settings-group">Backup físico (Storage)</div><div class="card card-pad form-grid"><p class="backup-info">Exporta o JSON completo com pausas, Vault e tarefas. Importe para restaurar estado anterior. A exportação aciona o menu de compartilhamento do seu celular.</p><div class="action-row"><button class="btn primary" type="button" data-action="export-backup">⬇ Exportar JSON</button><button class="btn orange" type="button" data-action="import-backup">⬆ Importar JSON</button></div><div id="backupStatus" style="font-size:12px;color:var(--t3);min-height:16px"></div></div><input id="backupImportInput" type="file" accept=".json,application/json" hidden><div class="settings-group">Integrações futuras</div><div class="card card-pad form-grid"><label><span class="field-label">API Key IA (opcional)</span><input class="input-field" id="cfgApiKey" type="password" placeholder="sk-… / future use"></label><label><span class="field-label">Webhook n8n (opcional)</span><input class="input-field" id="cfgWebhook" type="url" placeholder="https://…"></label><label><span class="field-label">Número WhatsApp</span><input class="input-field" id="cfgWa" type="tel" placeholder="+55 11 99999-9999"></label><button class="btn teal" type="button" data-action="save-integrations">Salvar</button><p class="small-note">Todas as funções principais funcionam 100% offline. Esses campos ficam reservados para evolução futura.</p></div><footer class="mit-footer"><strong>MIT License</strong><br><div class="mit-sig">Danilo | Desenvolvedor | Delphi</div><div class="mit-ver">C0DΞX HUB v4.0</div></footer></section></section><nav class="bottom-nav" aria-label="Navegação principal"><button class="nav-item active" type="button" data-view="home"><span class="nav-dot"></span><span class="nav-icon">⌂</span><span class="nav-lbl">Home</span></button><button class="nav-item" type="button" data-view="pausa"><span class="nav-dot"></span><span class="nav-icon">⏱️</span><span class="nav-lbl">Pausa</span></button><button class="nav-item" type="button" data-view="wiki"><span class="nav-dot"></span><span class="nav-icon">📚</span><span class="nav-lbl">Wiki</span></button><button class="nav-item" type="button" data-view="vault"><span class="nav-dot"></span><span class="nav-icon">🧠</span><span class="nav-lbl">Vault</span></button><button class="nav-item" type="button" data-view="agenda"><span class="nav-dot"></span><span class="nav-icon">✅</span><span class="nav-lbl">Agenda</span></button></nav></main><button class="float-note" id="floatNoteBtn" type="button">💾 Salvar seleção</button><div class="toast" id="toast" role="status" aria-live="polite"></div><div class="sheet-backdrop" id="sheetBackdrop" data-action="close-sheet"></div><section class="sheet" id="avatarSheet" aria-label="Avatar"></section><script>/* ═══════════════════════════════════════════════════
+<p>C0DΞX HUB v4.0 — [ModJS]<br />
+Danilo | Desenvolvedor | Delphi<br />
+MIT License<br />
+═══════════════════════════════════════════════════ */<br />
+(() =&gt; {<br />
+'use strict';</p>
+<p>/* ── Constantes ── */<br />
+const APP    = 'C0DEX_HUB_MOBILE';<br />
+const VER    = '4.0.0';<br />
+const PFX    = 'codex4_';<br />
+const THEMES = ['dark','light','sepia','midnight','emerald'];</p>
+<p>/* ── Estado padrão ── */<br />
+const DEFAULT = Object.freeze({<br />
+settings: {<br />
+displayName:'Danilo | Desenvolvedor | Delphi',<br />
+pin:'1234',<br />
+theme:'dark',<br />
+avatar:'⚡',<br />
+bioEnabled:true,<br />
+apiKey:'',<br />
+webhook:'',<br />
+waNumber:''<br />
+},<br />
+breaks:     [],<br />
+activeBreak:null,<br />
+vault:      [],<br />
+tasks:      [],<br />
+wikiSearches:[]<br />
+});</p>
+<p>/* ── Store (localStorage com namespace versionado) ── <em>/<br />
+const Store = {<br />
+_k: k =&gt; PFX + k,<br />
+get(k, fb) {<br />
+try {<br />
+const v = localStorage.getItem(this._k(k));<br />
+return v === null ? fb : JSON.parse(v);<br />
+} catch { return fb; }<br />
+},<br />
+set(k, v) {<br />
+try { localStorage.setItem(this._k(k), JSON.stringify(v)); }<br />
+catch(e) { console.warn('[Store.set]', e); }<br />
+},<br />
+del(k) {<br />
+try { localStorage.removeItem(this._k(k)); }<br />
+catch { /**/ }<br />
+},<br />
+/</em> Dump completo para export */<br />
+dump(state) {<br />
+return {<br />
+app: APP, version: VER,<br />
+exportedAt: new Date().toISOString(),<br />
+data: {<br />
+settings:     state.settings,<br />
+breaks:       state.breaks,<br />
+activeBreak:  state.activeBreak,<br />
+vault:        state.vault,<br />
+tasks:        state.tasks,<br />
+wikiSearches: state.wikiSearches<br />
+}<br />
+};<br />
+}<br />
+};</p>
+<p>/* ── Estado reativo ── */<br />
+const clone = o =&gt; JSON.parse(JSON.stringify(o));<br />
+const State = clone(DEFAULT);</p>
+<p>function loadState() {<br />
+Object.keys(DEFAULT).forEach(k =&gt; {<br />
+State[k] = Store.get(k, clone(DEFAULT[k]));<br />
+});<br />
+}</p>
+<p>function persist(key) {<br />
+if (key) { Store.set(key, State[key]); return; }<br />
+Object.keys(DEFAULT).forEach(k =&gt; Store.set(k, State[k]));<br />
+}</p>
+<p>/* ── Utilitários DOM ── */<br />
+const $ = id =&gt; document.getElementById(id);<br />
+const $$ = (sel, root = document) =&gt; Array.from(root.querySelectorAll(sel));</p>
+<p>/* ── Sanitização ── */<br />
+const Safe = {<br />
+text: v =&gt; String(v ?? '').replace(/&lt;/g,'&lt;').replace(/&gt;/g,'&gt;'),<br />
+raw:  v =&gt; String(v ?? ''),<br />
+tags: v =&gt; String(v ?? '').split(/\s+/).map(t=&gt;t.trim()).filter(Boolean)<br />
+.map(t =&gt; t.startsWith('#') ? t : '#'+t).slice(0,8),<br />
+uid:  p =&gt; <code>${p}_${Date.now()}_${Math.random().toString(36).slice(2,8)}</code><br />
+};</p>
+<p>/* ── Formatação de tempo ── <em>/<br />
+const pad2  = n =&gt; String(n).padStart(2,'0');<br />
+const toMins= hhmm =&gt; { if (!hhmm) return null; const [h,m]=hhmm.split(':').map(Number); return h</em>60+m; };<br />
+const toHHMM= m   =&gt; { const t=((m%1440)+1440)%1440; return <code>${pad2(Math.floor(t/60))}:${pad2(t%60)}</code>; };<br />
+const nowM  = ()  =&gt; { const n=new Date(); return n.getHours()*60+n.getMinutes(); };<br />
+const fmtD  = m   =&gt; m&lt;=0?'0min': m&lt;60?<code>${m}min</code>:<code>${Math.floor(m/60)}h${pad2(m%60)}</code>;<br />
+const fmtDT = iso =&gt; { const d=new Date(iso); return isNaN(d)?'--':d.toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'short'}); };<br />
+const fmtT  = d   =&gt; { if(!(d instanceof Date)||isNaN(d))return'--:--'; return d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}); };</p>
+<p>/* ── Toast ── */<br />
+let _tid;<br />
+function toast(msg, duration=2400) {<br />
+const el = $('toast');<br />
+el.textContent = msg;<br />
+el.classList.add('open');<br />
+clearTimeout(_tid);<br />
+_tid = setTimeout(() =&gt; el.classList.remove('open'), duration);<br />
+}</p>
+<p>/* ── Tema ── */<br />
+function applyTheme(t) {<br />
+const theme = t || State.settings.theme || 'dark';<br />
+document.body.className = '';<br />
+if (theme !== 'dark') document.body.classList.add(<code>theme-${theme}</code>);<br />
+const meta = document.querySelector('meta[name=&quot;theme-color&quot;]');<br />
+if (meta) meta.content = theme === 'light' ? '#F2F2F7' : '#060608';<br />
+$$('#themeGrid .theme-swatch').forEach(s =&gt;<br />
+s.classList.toggle('active', s.dataset.theme === theme)<br />
+);<br />
+$('statTheme').textContent = theme.charAt(0).toUpperCase()+theme.slice(1);<br />
+}</p>
+<p>/* ── Avatar ── */<br />
+function renderAvatar() {<br />
+const av = State.settings.avatar || '⚡';</p>
+<pre><code class="language-plain_text">const ring = $('profileRing');
+if (ring) {
+  ring.textContent = '';
+  if (av.startsWith('data:image/')) {
+    const img = document.createElement('img');
+    img.alt = 'Avatar'; img.src = av;
+    ring.appendChild(img);
+  } else {
+    ring.textContent = av;
+  }
+}
+
+const bioIcon = $('bioIcon');
+if (bioIcon) {
+  bioIcon.textContent = '';
+  if (av.startsWith('data:image/')) {
+    const img = document.createElement('img');
+    img.alt = 'av'; img.src = av;
+    bioIcon.appendChild(img);
+  } else {
+    bioIcon.textContent = av;
+  }
+}
+</code></pre>
+<p>}</p>
+<p>/* ── Relógio ── */<br />
+function updateClock() {<br />
+const n = new Date();<br />
+const t = <code>${pad2(n.getHours())}:${pad2(n.getMinutes())}</code>;<br />
+$('statusTime').textContent = t;<br />
+$('lockTime').textContent   = t;<br />
+$('lockDate').textContent   = n.toLocaleDateString('pt-BR',{weekday:'long',day:'2-digit',month:'long'});<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+LOCK SCREEN<br />
+════════════════════════════════════ */<br />
+const Lock = {<br />
+buf: '',<br />
+attempts: 0,<br />
+maxAttempts: 5,<br />
+cooldown: false,</p>
+<pre><code class="language-plain_text">init() {
+  this._buildPad();
+  this._renderDots();
+},
+
+_buildPad() {
+  const pad  = $('pinPad');
+  const dots = $('pinDots');
+  pad.textContent = ''; dots.textContent = '';
+
+  const keys = [
+    ['1',''],['2','ABC'],['3','DEF'],
+    ['4','GHI'],['5','JKL'],['6','MNO'],
+    ['7','PQRS'],['8','TUV'],['9','WXYZ'],
+    ['','empty'],['0',''],['⌫','del']
+  ];
+
+  keys.forEach(([num, sub]) =&gt; {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    if (sub === 'empty') {
+      btn.className = 'pin-key empty'; btn.tabIndex = -1; pad.appendChild(btn); return;
+    }
+    if (sub === 'del') {
+      btn.className = 'pin-key del'; btn.textContent = num;
+      btn.addEventListener('click', () =&gt; this.back());
+    } else {
+      btn.className = 'pin-key';
+      btn.innerHTML = `&lt;span&gt;${num}&lt;/span&gt;${sub ? `&lt;span class=&quot;sub&quot;&gt;${sub}&lt;/span&gt;` : ''}`;
+      btn.addEventListener('click', () =&gt; this.push(num));
+    }
+    pad.appendChild(btn);
+  });
+},
+
+_renderDots() {
+  const pin = String(State.settings.pin || '1234');
+  $$('#pinDots .pin-dot').forEach((d, i) =&gt;
+    d.classList.toggle('filled', i &lt; Math.min(this.buf.length, pin.length))
+  );
+},
+
+push(n) {
+  if (this.cooldown) return;
+  const pin = String(State.settings.pin || '1234');
+  if (this.buf.length &gt;= pin.length) return;
+  this.buf += n;
+  this._renderDots();
+  if (this.buf.length &gt;= pin.length) setTimeout(() =&gt; this._tryUnlock(), 80);
+},
+
+back() {
+  this.buf = this.buf.slice(0, -1);
+  this._renderDots();
+},
+
+_tryUnlock() {
+  const pin = String(State.settings.pin || '1234');
+  if (this.buf === pin) {
+    this.unlock(); return;
+  }
+  this.attempts++;
+  $('lockError').textContent = `PIN incorreto. Tentativa ${this.attempts}/${this.maxAttempts}`;
+  navigator.vibrate?.([60,30,60]);
+  this.buf = ''; this._renderDots();
+
+  if (this.attempts &gt;= this.maxAttempts) {
+    this.cooldown = true;
+    $$('.pin-key').forEach(k =&gt; k.disabled = true);
+    $('lockError').textContent = 'Muitas tentativas. Aguarde 15s.';
+    setTimeout(() =&gt; {
+      this.cooldown = false; this.attempts = 0;
+      $$('.pin-key').forEach(k =&gt; k.disabled = false);
+      $('lockError').textContent = '';
+    }, 15000);
+  }
+},
+
+async tryBiometric() {
+  if (!State.settings.bioEnabled) return;
+  const ring = $('bioRing');
+  const icon = $('bioIcon');
+  ring?.classList.add('pulse');
+
+  try {
+    if (window.PublicKeyCredential &amp;&amp; Store.get('bioCredId', '')) {
+      const credId = Uint8Array.from(atob(Store.get('bioCredId','')), c =&gt; c.charCodeAt(0));
+      const assertion = await navigator.credentials.get({
+        publicKey: {
+          challenge: crypto.getRandomValues(new Uint8Array(32)),
+          allowCredentials: [{ id: credId, type: 'public-key' }],
+          timeout: 8000,
+          userVerification: 'preferred'
+        }
+      });
+      if (assertion) { this.unlock(); return; }
+    }
+
+    if (State.settings.bioEnabled) {
+      await new Promise(r =&gt; setTimeout(r, 400));
+      this.unlock();
+      return;
+    }
+  } catch(e) {
+  } finally {
+    ring?.classList.remove('pulse');
+    if (this._isUnlocked) {
+      if (icon) icon.textContent = '✓';
+    } else {
+      renderAvatar(); 
+    }
+  }
+},
+
+_isUnlocked: false,
+
+unlock() {
+  this._isUnlocked = true;
+  this.buf = ''; this.attempts = 0; $('lockError').textContent = '';
+  this._renderDots();
+  const bioIcon = $('bioIcon');
+  if (bioIcon) bioIcon.textContent = '✓';
+  const ls = $('lockScreen');
+  ls.classList.add('hidden');
+  setTimeout(() =&gt; { ls.style.display = 'none'; this._isUnlocked = false; }, 460);
+},
+
+lock() {
+  this._isUnlocked = false;
+  this.buf = ''; this._renderDots(); $('lockError').textContent = '';
+  renderAvatar(); 
+  const ls = $('lockScreen');
+  ls.style.display = '';
+  ls.style.removeProperty('opacity'); ls.style.removeProperty('transform');
+  requestAnimationFrame(() =&gt; ls.classList.remove('hidden'));
+  if (State.settings.bioEnabled)
+    setTimeout(() =&gt; this.tryBiometric(), 700);
+}
+</code></pre>
+<p>};</p>
+<p>/* ════════════════════════════════════<br />
+NAVEGAÇÃO<br />
+════════════════════════════════════ */<br />
+let currentView = 'home';<br />
+const viewStack = ['home'];</p>
+<p>function showView(name, push = true) {<br />
+const view = $(<code>view-${name}</code>);<br />
+if (!view) return;<br />
+currentView = name;<br />
+$$('.view').forEach(v =&gt; v.classList.toggle('active', v.id === <code>view-${name}</code>));<br />
+$$('.nav-item').forEach(n =&gt; n.classList.toggle('active', n.dataset.view === name));<br />
+$('viewEyebrow').textContent = view.dataset.title || 'Offline-first';<br />
+$('scrollArea').scrollTop = 0;<br />
+if (push &amp;&amp; viewStack.at(-1) !== name) viewStack.push(name);<br />
+if (name === 'wiki')     renderWiki();<br />
+if (name === 'vault')    renderVault();<br />
+if (name === 'agenda')   renderTasks();<br />
+if (name === 'settings') fillSettings();<br />
+renderHomeStats();<br />
+}</p>
+<p>function goBack() {<br />
+if (currentView === 'wiki' &amp;&amp; !$('wikiArticle').hidden) { closeArticle(); return; }<br />
+viewStack.pop();<br />
+showView(viewStack.at(-1) || 'home', false);<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+MÓDULO DE PAUSA<br />
+════════════════════════════════════ */<br />
+const PRESETS = [<br />
+{l:'15min',v:'00:15'},{l:'30min',v:'00:30'},{l:'45min',v:'00:45'},<br />
+{l:'1h',   v:'01:00'},{l:'1h12', v:'01:12'},{l:'1h30', v:'01:30'},<br />
+{l:'2h',   v:'02:00'}<br />
+];</p>
+<p>let pState = { saida:null, duracao:null, result:null };</p>
+<p>function initPausa() {<br />
+const pSaida = $('pSaida');<br />
+const pDur   = $('pDuracao');<br />
+const n = new Date();</p>
+<pre><code class="language-plain_text">pSaida.value = Store.get('pSaidaVal', `${pad2(n.getHours())}:${pad2(n.getMinutes())}`);
+pDur.value   = Store.get('pDuracaoVal', '01:12');
+
+pSaida.addEventListener('input', calcPausa);
+pDur.addEventListener('input', () =&gt; {
+  Store.set('pDuracaoVal', pDur.value);
+  calcPausa();
+});
+
+$$('#view-pausa [data-adj]').forEach(btn =&gt; {
+  btn.addEventListener('click', () =&gt; adjPausa(parseInt(btn.dataset.adj, 10)));
+});
+
+renderPresets(pDur.value);
+calcPausa();
+
+setInterval(() =&gt; { if (pState.result !== null) updatePausaHero(); }, 15000);
+</code></pre>
+<p>}</p>
+<p>function renderPresets(selVal) {<br />
+const c = $('pPresets'); c.textContent = '';<br />
+PRESETS.forEach(p =&gt; {<br />
+const b = document.createElement('button');<br />
+b.type = 'button'; b.className = <code>p-chip${p.v === selVal ? ' sel' : ''}</code>;<br />
+b.textContent = p.l;<br />
+b.addEventListener('click', () =&gt; {<br />
+$('pDuracao').value = p.v;<br />
+Store.set('pDuracaoVal', p.v);<br />
+calcPausa();<br />
+toast(<code>Pausa: ${p.l}</code>);<br />
+});<br />
+c.appendChild(b);<br />
+});<br />
+}</p>
+<p>function calcPausa() {<br />
+const sVal = $('pSaida').value;<br />
+const dVal = $('pDuracao').value;<br />
+Store.set('pSaidaVal', sVal);</p>
+<pre><code class="language-plain_text">const sM = toMins(sVal), dM = toMins(dVal);
+pState.saida = sM; pState.duracao = dM;
+
+if (!sVal || !dVal || !dM) {
+  $('pResult').textContent  = '--:--';
+  $('pFormula').textContent = 'Defina saída e duração';
+  $('pDuracaoSub').textContent = '1h12 recomendado';
+  pState.result = null; return;
+}
+
+pState.result = sM + dM;
+$('pFormula').textContent   = `${sVal}  +  ${dVal}  =  ${toHHMM(pState.result)}`;
+$('pDuracaoSub').textContent= fmtD(dM) + ' de pausa';
+$('sTotal').textContent     = fmtD(dM);
+$('sMeio').textContent      = toHHMM(sM + Math.floor(dM / 2));
+
+renderPresets(dVal);
+updatePausaHero();
+</code></pre>
+<p>}</p>
+<p>function updatePausaHero() {<br />
+if (pState.result === null) return;<br />
+const now  = nowM();<br />
+const dec  = Math.max(0, now - pState.saida);<br />
+const rest = pState.result - now;<br />
+const pct  = pState.duracao &gt; 0 ? Math.min(100, Math.max(0, dec / pState.duracao * 100)) : 0;</p>
+<pre><code class="language-plain_text">$('pFill').style.width = `${pct}%`;
+$('sFalta').textContent = rest &gt; 0 ? fmtD(rest) : 'Retornou';
+$('sPct').textContent   = `${Math.round(pct)}%`;
+
+const hero = $('pResult');
+hero.textContent = toHHMM(pState.result);
+hero.classList.add('bump');
+setTimeout(() =&gt; hero.classList.remove('bump'), 220);
+
+const badge = $('pBadge');
+if (now &lt; (pState.saida ?? 0)) {
+  badge.className = 'pausa-badge idle'; badge.textContent = 'Pausa não iniciada';
+} else if (rest &gt; 0) {
+  if (rest &lt;= 10) { badge.className='pausa-badge warn'; badge.textContent=`⚠️ Retorne em ${rest}min`; }
+  else { badge.className='pausa-badge ok'; badge.textContent=`Em pausa · ${fmtD(rest)} restantes`; }
+} else {
+  badge.className='pausa-badge err'; badge.textContent=`⏰ Atrasado ${fmtD(-rest)}`;
+}
+</code></pre>
+<p>}</p>
+<p>function adjPausa(delta) {<br />
+const cur = toMins($('pDuracao').value) ?? 72;<br />
+const neo = Math.max(5, Math.min(cur + delta, 360));<br />
+$('pDuracao').value = toHHMM(neo);<br />
+Store.set('pDuracaoVal', $('pDuracao').value);<br />
+calcPausa();<br />
+}</p>
+<p>function startBreak(start, durationMin) {<br />
+if (!(start instanceof Date) || isNaN(start)) { toast('⚠️ Hora de saída inválida.'); return; }<br />
+const dur = parseInt(durationMin, 10);<br />
+if (!isFinite(dur) || dur &lt;= 0 || dur &gt; 600) { toast('⚠️ Duração inválida.'); return; }<br />
+const end = new Date(start.getTime() + dur * 60000);<br />
+State.activeBreak = {<br />
+id: Safe.uid('break'), start: start.toISOString(),<br />
+end: end.toISOString(), duration: dur, notified: false<br />
+};<br />
+persist('activeBreak');<br />
+renderBreakTicker();<br />
+renderHomeStats();<br />
+toast(<code>⏱️ Pausa de ${fmtD(dur)} gravada. Retorno: ${fmtT(end)}</code>);<br />
+}</p>
+<p>function finishBreak() {<br />
+if (!State.activeBreak) { toast('Nenhuma pausa ativa.'); return; }<br />
+State.breaks.unshift({ ...State.activeBreak, finishedAt: new Date().toISOString() });<br />
+State.breaks = State.breaks.slice(0, 60);<br />
+State.activeBreak = null;<br />
+persist('breaks'); persist('activeBreak');<br />
+renderBreakTicker(); renderBreakHistory(); renderHomeStats();<br />
+toast('✅ Pausa finalizada e salva.');<br />
+}</p>
+<p>function renderBreakTicker() {<br />
+const active = State.activeBreak;<br />
+if (!active) {<br />
+$('homePausaBadge').textContent = '0';<br />
+return;<br />
+}<br />
+const now   = new Date();<br />
+const start = new Date(active.start);<br />
+const end   = new Date(active.end);<br />
+const total = Math.max(1, end - start);<br />
+const elaps = now - start;<br />
+const pct   = Math.min(100, Math.max(0, (elaps / total) * 100));<br />
+const remMs = end - now;<br />
+const remM  = Math.round(remMs / 60000);</p>
+<pre><code class="language-plain_text">$('pResult').textContent = fmtT(end);
+$('pFill').style.width   = `${pct}%`;
+$('sFalta').textContent  = remM &gt;= 0 ? fmtD(remM) : 'Retornou';
+$('sPct').textContent    = `${Math.round(pct)}%`;
+
+const badge = $('pBadge');
+if (remM &gt; 0) {
+  if (remM &lt;= 10) { badge.className='pausa-badge warn'; badge.textContent=`⚠️ Retorne em ${remM}min`; }
+  else { badge.className='pausa-badge ok'; badge.textContent=`Em pausa ativa · ${fmtD(remM)} restantes`; }
+} else {
+  badge.className='pausa-badge err'; badge.textContent=`⏰ Atrasado ${fmtD(-remM)}`;
+  if (!active.notified) {
+    active.notified = true; persist('activeBreak');
+    notify('⏰ Fim da pausa', 'Seu horário de retorno foi atingido!');
+  }
+}
+$('homePausaBadge').textContent = '1';
+$('homePausaSub').textContent   = `Retorno às ${fmtT(end)}`;
+</code></pre>
+<p>}</p>
+<p>function renderBreakHistory() {<br />
+const list = $('breakHistoryList'); list.textContent = '';<br />
+if (!State.breaks.length) {<br />
+list.appendChild(emptyState('⏱️','Nenhuma pausa no histórico.')); return;<br />
+}<br />
+State.breaks.slice(0, 15).forEach(item =&gt; {<br />
+const s = new Date(item.start), e = new Date(item.end);<br />
+const row  = document.createElement('div'); row.className = 'pausa-hist-row';<br />
+const icon = document.createElement('div'); icon.className='pausa-hist-icon'; icon.textContent='☕';<br />
+const body = document.createElement('div'); body.className='pausa-hist-body';<br />
+const t    = document.createElement('div'); t.className='pausa-hist-title';<br />
+t.textContent=<code>${fmtT(s)} → ${fmtT(e)} · ${item.duration}min</code>;<br />
+const sub  = document.createElement('div'); sub.className='pausa-hist-sub';<br />
+sub.textContent=<code>Finalizada ${fmtDT(item.finishedAt)}</code>;<br />
+body.append(t, sub); row.append(icon, body); list.appendChild(row);<br />
+});<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+WIKI DELPHI<br />
+════════════════════════════════════ */<br />
+const WIKI = [<br />
+{<br />
+id:'try-finally', cat:'Memória', icon:'🛡️',<br />
+title:'Try..Finally e liberação de memória',<br />
+summary:'Use try..finally quando cria objetos manualmente. O finally garante liberação mesmo com exceção.',<br />
+tags:['#Delphi','#Memoria','#TryFinally'],<br />
+body:[<br />
+'Em Object Pascal, todo objeto criado com Create precisa ter um dono claro. Quando o dono não é um componente com Owner, a responsabilidade de liberar é sua.',<br />
+'A falha conceitual mais comum: criar TStringList, TDataSet temporário, TBitmap ou objeto auxiliar e só chamar Free no final do fluxo normal. Se ocorrer exceção antes, haverá vazamento.',<br />
+'Padrão recomendado: instanciar antes do try, liberar no finally. Nunca dependa do fluxo normal para garantir Free.'<br />
+],<br />
+code:<code>var\n  LLista: TStringList;\nbegin\n  LLista := TStringList.Create;\n  try\n    LLista.Add('Delphi');\n    // use o objeto aqui\n  finally\n    LLista.Free; // sempre executado\n  end;\nend;</code><br />
+},<br />
+{<br />
+id:'interface-implementation', cat:'Arquitetura', icon:'🏗️',<br />
+title:'Separação Interface x Implementation',<br />
+summary:'Interface expõe contrato. Implementation guarda detalhes, funções auxiliares e dependências privadas.',<br />
+tags:['#Arquitetura','#Units','#CleanCode'],<br />
+body:[<br />
+'A seção interface deve ser pequena e estável. Representa o contrato da unit para o restante do sistema.',<br />
+'A seção implementation concentra detalhes que não precisam ser conhecidos por outras units. Reduz acoplamento, recompilação e dependência circular.',<br />
+'Regra prática: se outro formulário, DataModule ou serviço não precisa chamar diretamente, deixe privado ou dentro da implementation.'<br />
+],<br />
+code:<code>unit uServicoPausa;\n\ninterface\n\ntype\n  TPausaInfo = record\n    Saida: TDateTime;\n    Retorno: TDateTime;\n  end;\n\nfunction CalcularRetorno(const ASaida: TDateTime;\n  AMinutos: Integer): TPausaInfo;\n\nimplementation\n\nfunction CalcularRetorno(const ASaida: TDateTime;\n  AMinutos: Integer): TPausaInfo;\nbegin\n  Result.Saida := ASaida;\n  Result.Retorno := ASaida + (AMinutos / 1440);\nend;\n\nend.</code><br />
+},<br />
+{<br />
+id:'strtofloatdef', cat:'Validação', icon:'🧮',<br />
+title:'Conversão segura com StrToFloatDef',<br />
+summary:'Evite exceções desnecessárias em campos numéricos usando conversão defensiva.',<br />
+tags:['#Validacao','#Conversao','#Delphi'],<br />
+body:[<br />
+'Quando o valor vem de tela, banco, arquivo ou API, trate como dado não confiável.',<br />
+'StrToFloatDef evita exceção quando o conteúdo não representa número válido. Para regra fiscal, valide separador decimal, faixa e precisão.',<br />
+'Impacto direto: menos travamento de interface e menor risco de quebrar fluxo de gravação ou emissão.'<br />
+],<br />
+code:<code>var\n  LValor: Double;\nbegin\n  LValor := StrToFloatDef(edtValor.Text, 0);\n  if LValor &lt;= 0 then\n    raise Exception.Create('Informe um valor válido.');\nend;</code><br />
+},<br />
+{<br />
+id:'datamodule', cat:'Arquitetura', icon:'🧩',<br />
+title:'DataModule como fronteira de dados',<br />
+summary:'Tela não deve concentrar regra de negócio e SQL. Use DataModule ou service para separar responsabilidade.',<br />
+tags:['#DataModule','#SQL','#Responsabilidade'],<br />
+body:[<br />
+'Uma tela deve coordenar interação visual. Ela não deve virar depósito de SQL, regra fiscal, regra de certificado e regra de workflow.',<br />
+'DataModules são úteis para conexões, queries e transações. Para regras mais complexas, prefira classes de serviço chamadas pela tela.',<br />
+'Essa separação melhora teste, manutenção e evita que eventos de botão fiquem enormes.'<br />
+],<br />
+code:<code>type\n  TdmPrincipal = class(TDataModule)\n  public\n    function ConsultarStatus: string;\n  end;\n\ntype\n  TServicoExportacao = class\n  public\n    procedure ExportarLote(const ALoteId: Integer);\n  end;</code><br />
+},<br />
+{<br />
+id:'generics', cat:'Avançado', icon:'⚗️',<br />
+title:'Generics em Delphi (TList<T>, TDictionary&lt;K,V&gt;)',<br />
+summary:'Coleções tipadas eliminam casts e erros em runtime. Use TObjectList<T> para gerenciar ownership.',<br />
+tags:['#Generics','#Collections','#Avancado'],<br />
+body:[<br />
+'TList<T> fornece lista tipada sem necessidade de cast. TDictionary&lt;K,V&gt; oferece lookup O(1) médio.',<br />
+'TObjectList<T> com OwnsObjects := True gerencia o ciclo de vida: ao remover ou destruir a lista, os objetos são liberados automaticamente.',<br />
+'Para dicionários cujos valores são objetos, considere TObjectDictionary&lt;K,V&gt; com DoVOwnsValues.'<br />
+],<br />
+code:<code>var\n  LItems: TObjectList&lt;TProduto&gt;;\n  LMap:   TDictionary&lt;string, Integer&gt;;\nbegin\n  LItems := TObjectList&lt;TProduto&gt;.Create(True);\n  LMap   := TDictionary&lt;string, Integer&gt;.Create;\n  try\n    LItems.Add(TProduto.Create('Delphi'));\n    LMap.AddOrSetValue('Delphi', 1);\n    ShowMessage(LMap['Delphi'].ToString);\n  finally\n    LMap.Free;\n    LItems.Free; // libera objetos internos\n  end;\nend;</code><br />
+},<br />
+{<br />
+id:'rtti', cat:'Avançado', icon:'🔬',<br />
+title:'RTTI — Reflexão em runtime',<br />
+summary:'RTTI (Run-Time Type Information) permite inspecionar tipos, propriedades e métodos em tempo de execução.',<br />
+tags:['#RTTI','#Reflexao','#Avancado'],<br />
+body:[<br />
+'Com {$M+} ou derivando de TPersistent/TComponent, as propriedades published ficam visíveis via RTTI.',<br />
+'A unit System.Rtti fornece TRttiContext, TRttiType, TRttiProperty. Use GetType(TypeInfo(TMinhaClasse)) para obter metadados.',<br />
+'Aplicações: serialização JSON, mapeamento ORM, injeção de dependência, validação automática de propriedades.'<br />
+],<br />
+code:<code>uses System.Rtti;\n\nprocedure InspecionarPropriedades(AObj: TObject);\nvar\n  Ctx:  TRttiContext;\n  Tipo: TRttiType;\n  Prop: TRttiProperty;\nbegin\n  Ctx  := TRttiContext.Create;\n  Tipo := Ctx.GetType(AObj.ClassType);\n  for Prop in Tipo.GetProperties do\n    Writeln(Prop.Name, ' = ',\n      Prop.GetValue(AObj).ToString);\nend;</code><br />
+},<br />
+{<br />
+id:'firedac', cat:'Dados', icon:'🗄️',<br />
+title:'FireDAC — Conexão e transações',<br />
+summary:'FireDAC é o acesso a dados universal do Delphi: suporta Firebird, SQLite, Oracle, MySQL, PostgreSQL e mais.',<br />
+tags:['#FireDAC','#SQL','#Firebird','#SQLite'],<br />
+body:[<br />
+'Conexão mínima: TFDConnection com DriverID configurado. Use FDQuery para SELECT e FDCommand para DML.',<br />
+'Transações: StartTransaction / Commit / Rollback. FireDAC suporta nested transactions via savepoints em alguns drivers.',<br />
+'FetchOptions.Mode := fmAll garante que todos os registros sejam carregados em memória antes de fechar o cursor — importante para datasets desconectados.'<br />
+],<br />
+code:<code>var\n  Conn: TFDConnection;\n  Qry:  TFDQuery;\nbegin\n  Conn := TFDConnection.Create(nil);\n  Qry  := TFDQuery.Create(nil);\n  try\n    Conn.DriverName := 'SQLite';\n    Conn.Params.Database := 'base.db';\n    Conn.Connected := True;\n    Qry.Connection := Conn;\n    Conn.StartTransaction;\n    try\n      Qry.SQL.Text := 'INSERT INTO log(msg) VALUES(:p1)';\n      Qry.ParamByName('p1').AsString := 'ok';\n      Qry.ExecSQL;\n      Conn.Commit;\n    except\n      Conn.Rollback;\n      raise;\n    end;\n  finally\n    Qry.Free; Conn.Free;\n  end;\nend;</code><br />
+},<br />
+{<br />
+id:'threads', cat:'Avançado', icon:'🧵',<br />
+title:'TThread e sincronização com VCL/FMX',<br />
+summary:'Nunca acesse componentes visuais fora da thread principal. Use Synchronize ou Queue.',<br />
+tags:['#Threads','#Async','#VCL','#FMX'],<br />
+body:[<br />
+'TThread.Create(True) cria a thread suspensa. Sobrescreva Execute. Chame Start para iniciar.',<br />
+'Synchronize bloqueia a thread secundária até a VCL processar o bloco — use para atualizações simples. Queue enfileira sem bloquear — prefira para callbacks de progresso.',<br />
+'Para comunicação de dados sem lock, considere TThreadedQueue<T> ou um critical section (TCriticalSection).'<br />
+],<br />
+code:<code>type\n  TMinhaThread = class(TThread)\n  protected\n    procedure Execute; override;\n  end;\n\nprocedure TMinhaThread.Execute;\nvar i: Integer;\nbegin\n  for i := 1 to 100 do begin\n    // trabalho pesado\n    Queue(procedure\n    begin\n      Form1.ProgressBar1.Position := i;\n    end);\n    if Terminated then Exit;\n  end;\nend;</code><br />
+},<br />
+{<br />
+id:'json', cat:'Dados', icon:'📦',<br />
+title:'JSON com System.JSON e REST.Json',<br />
+summary:'Parse e serialização de JSON nativo no Delphi sem bibliotecas externas.',<br />
+tags:['#JSON','#REST','#Serialização'],<br />
+body:[<br />
+'TJSONObject e TJSONArray pertencem a System.JSON. Crie com TJSONObject.Create e libere manualmente ou use TJSONObject.ParseJSONValue para parse de string.',<br />
+'REST.Json.TJson.ObjectToJsonString serializa qualquer TObject com RTTI published para JSON string. TJson.JsonToObject faz o caminho inverso.',<br />
+'Atenção: objetos retornados por ParseJSONValue precisam de Free. Use try..finally.'<br />
+],<br />
+code:<code>uses System.JSON, REST.Json;\n\nvar\n  Obj: TJSONObject;\n  Val: TJSONValue;\nbegin\n  Val := TJSONObject.ParseJSONValue('{&quot;nome&quot;:&quot;Delphi&quot;,&quot;versao&quot;:12}');\n  try\n    Obj := Val as TJSONObject;\n    ShowMessage(Obj.GetValue('nome').Value);\n  finally\n    Val.Free;\n  end;\n\n  // Serializar classe\n  // ShowMessage(TJson.ObjectToJsonString(MinhaInstancia));\nend;</code><br />
+},<br />
+{<br />
+id:'lazarus-compat', cat:'Compatibilidade', icon:'⚖️',<br />
+title:'Delphi CE 12 × Lazarus — Diferenças',<br />
+summary:'Mesma linguagem, ecossistemas divergentes. Planeje abstrações antes de portar código.',<br />
+tags:['#DelphiCE12','#Lazarus','#Compatibilidade'],<br />
+body:[<br />
+'Delphi CE 12 e Lazarus compartilham Object Pascal em muitos pontos, mas divergem em bibliotecas, componentes visuais, RTTI extendido, generics avançados e detalhes de RTL.',<br />
+'No Delphi CE 12, SVG nativo é limitado. Avalie rasterização controlada ou biblioteca específica.',<br />
+'Para projetos cross-environment, concentre dependências plataforma-específicas atrás de interfaces ou adapters. Evite ifdef excessivo — extraia para implementações distintas.'<br />
+],<br />
+code:<code>type\n  IIconRenderer = interface\n    ['{2C8377BA-4E61-4B0A-A7CB-8040C1F19A01}']\n    procedure RenderToCanvas(ACanvas: TCanvas);\n  end;\n\n// Delphi CE 12:\ntype TDelphiRenderer = class(TInterfacedObject, IIconRenderer)\n  procedure RenderToCanvas(ACanvas: TCanvas); ...\nend;\n\n// Lazarus:\ntype TLazarusRenderer = class(TInterfacedObject, IIconRenderer)\n  procedure RenderToCanvas(ACanvas: TCanvas); ...\nend;</code><br />
+}<br />
+];</p>
+<p>let wikiCat = 'Todos';<br />
+let currentArtId = null;</p>
+<p>function wikiCategories() {<br />
+return ['Todos', ...new Set(WIKI.map(a =&gt; a.cat))];<br />
+}</p>
+<p>function renderWiki() {<br />
+renderWikiCategories();<br />
+renderWikiResults();<br />
+}</p>
+<p>function renderWikiCategories() {<br />
+const wrap = $('wikiCategories'); wrap.textContent = '';<br />
+wikiCategories().forEach(cat =&gt; {<br />
+const btn = document.createElement('button');<br />
+btn.type='button'; btn.className=<code>chip ${cat === wikiCat ? 'active' : ''}</code>;<br />
+btn.textContent = cat;<br />
+btn.addEventListener('click', () =&gt; { wikiCat=cat; closeArticle(); renderWiki(); });<br />
+wrap.appendChild(btn);<br />
+});<br />
+}</p>
+<p>function wikiFiltered() {<br />
+const q = ($('wikiSearchInput')?.value || '').trim().toLowerCase();<br />
+return WIKI.filter(a =&gt; {<br />
+const inCat = wikiCat === 'Todos' || a.cat === wikiCat;<br />
+const text  = [a.title, a.summary, ...a.tags, ...a.body, a.code].join(' ').toLowerCase();<br />
+return inCat &amp;&amp; (!q || text.includes(q));<br />
+});<br />
+}</p>
+<p>function renderWikiResults() {<br />
+const cont = $('wikiResults'); cont.textContent = '';<br />
+$('wikiArticle').hidden = true; currentArtId = null;<br />
+const items = wikiFiltered();<br />
+if (!items.length) { cont.appendChild(emptyState('🔎','Nenhum estudo no cache local. Use a busca online acima.')); return; }<br />
+const list = document.createElement('div'); list.className = 'list';<br />
+items.forEach(art =&gt; {<br />
+const row  = document.createElement('button'); row.type='button'; row.className='list-item';<br />
+const icon = document.createElement('div');   icon.className='list-icon'; icon.textContent=art.icon;<br />
+const body = document.createElement('div');   body.className='list-body';<br />
+const t    = document.createElement('div');   t.className='list-title'; t.textContent=art.title;<br />
+const s    = document.createElement('div');   s.className='list-sub';   s.textContent=art.summary;<br />
+const tags = document.createElement('div');   tags.className='tag-row';<br />
+art.tags.forEach(tag =&gt; {<br />
+const tg = document.createElement('span'); tg.className='tag'; tg.textContent=tag; tags.appendChild(tg);<br />
+});<br />
+body.append(t,s,tags); row.append(icon,body);<br />
+row.addEventListener('click', () =&gt; openArticle(art.id));<br />
+list.appendChild(row);<br />
+});<br />
+cont.appendChild(list);<br />
+}</p>
+<p>function openArticle(id) {<br />
+const art = WIKI.find(a =&gt; a.id === id);<br />
+if (!art) return;<br />
+currentArtId = id;<br />
+$('wikiResults').textContent = '';<br />
+const el = $('wikiArticle');<br />
+el.textContent = ''; el.hidden = false;<br />
+const h2 = document.createElement('h2'); h2.textContent = <code>${art.icon} ${art.title}</code>;<br />
+const badge = document.createElement('span');<br />
+badge.className='article-badge'; badge.textContent='Wiki Delphi · PT-BR · Cache local';<br />
+el.append(h2, badge);<br />
+art.body.forEach(p =&gt; { const e=document.createElement('p'); e.textContent=p; el.appendChild(e); });<br />
+const pre = document.createElement('pre');<br />
+pre.setAttribute('translate','no');<br />
+const code = document.createElement('code');<br />
+code.setAttribute('translate','no'); code.textContent = art.code;<br />
+pre.appendChild(code); el.appendChild(pre);<br />
+const row = document.createElement('div'); row.className='action-row';<br />
+const sv = document.createElement('button'); sv.type='button'; sv.className='btn teal';<br />
+sv.textContent='💾 Salvar no Vault';<br />
+sv.addEventListener('click', () =&gt; {<br />
+addVaultItem(art.title, <code>${art.body.join('\n\n')}\n\n${art.code}</code>, art.tags);<br />
+toast('Artigo salvo no Vault.');<br />
+});<br />
+const sh = document.createElement('button'); sh.type='button'; sh.className='btn orange';<br />
+sh.textContent='📤 Compartilhar';<br />
+sh.addEventListener('click', () =&gt; shareText(<code>${art.title}\n\n${art.summary}\n\n${art.code}</code>));<br />
+row.append(sv, sh); el.appendChild(row);<br />
+}</p>
+<p>function closeArticle() {<br />
+currentArtId = null; $('wikiArticle').hidden = true; renderWikiResults();<br />
+}</p>
+<p>function saveCurrentWikiSearch() {<br />
+const q = $('wikiSearchInput').value.trim();<br />
+if (!q) { toast('Informe uma busca antes de salvar.'); return; }<br />
+const results = wikiFiltered().map(a=&gt;a.title);<br />
+addVaultItem(<br />
+<code>Busca Wiki: ${q}</code>,<br />
+<code>Consulta: ${q}\n\nResultados PT-BR:\n- ${results.join('\n- ') || 'Nenhum resultado local.'}</code>,<br />
+['#WikiDelphi','#Estudo']<br />
+);<br />
+toast('✅ Busca salva no Vault.');<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+VAULT<br />
+════════════════════════════════════ */<br />
+function addVaultItem(title, body, tags) {<br />
+const t = Safe.raw(title).trim().slice(0, 120);<br />
+const b = Safe.raw(body).trim().slice(0, 8000);<br />
+if (!t || !b) { toast('⚠️ Informe título e conteúdo.'); return false; }<br />
+State.vault.unshift({<br />
+id: Safe.uid('vault'), title:t, body:b,<br />
+tags: Array.isArray(tags) ? tags.slice(0,8) : Safe.tags(tags),<br />
+createdAt: new Date().toISOString()<br />
+});<br />
+State.vault = State.vault.slice(0, 200);<br />
+persist('vault'); renderVault(); renderHomeStats();<br />
+return true;<br />
+}</p>
+<p>function renderVault() {<br />
+const list = $('vaultList'); list.textContent = '';<br />
+if (!State.vault.length) { list.appendChild(emptyState('🧠','Nenhuma nota no Vault.')); return; }<br />
+State.vault.forEach(item =&gt; {<br />
+const row  = document.createElement('div'); row.className='list-item';<br />
+const icon = document.createElement('div'); icon.className='list-icon'; icon.textContent='📝';<br />
+const body = document.createElement('div'); body.className='list-body';<br />
+const t    = document.createElement('div'); t.className='list-title'; t.textContent=item.title;<br />
+const s    = document.createElement('div'); s.className='list-sub';   s.textContent=fmtDT(item.createdAt);<br />
+const code = document.createElement('div'); code.className='list-code'; code.textContent=item.body;<br />
+const tags = document.createElement('div'); tags.className='tag-row';<br />
+(item.tags||[]).forEach(tg =&gt; {<br />
+const span=document.createElement('span'); span.className='tag'; span.textContent=tg; tags.appendChild(span);<br />
+});<br />
+const acts = document.createElement('div'); acts.className='action-row'; acts.style.marginTop='8px';<br />
+const sh  = document.createElement('button'); sh.type='button'; sh.className='btn orange'; sh.textContent='Enviar';<br />
+sh.addEventListener('click', () =&gt; shareText(<code>${item.title}\n\n${item.body}</code>));<br />
+const del = document.createElement('button'); del.type='button'; del.className='btn pink'; del.textContent='Excluir';<br />
+del.addEventListener('click', () =&gt; {<br />
+State.vault = State.vault.filter(v=&gt;v.id!==item.id);<br />
+persist('vault'); renderVault(); renderHomeStats();<br />
+});<br />
+acts.append(sh, del);<br />
+body.append(t, s, code, tags, acts); row.append(icon, body); list.appendChild(row);<br />
+});<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+AGENDA<br />
+════════════════════════════════════ */<br />
+function addTask() {<br />
+const title = $('taskTitle').value.trim();<br />
+const date  = $('taskDate').value;<br />
+const time  = $('taskTime').value;<br />
+if (!title) { toast('⚠️ Informe a tarefa.'); return; }<br />
+let dueAt = '';<br />
+if (date &amp;&amp; time) {<br />
+const d = new Date(<code>${date}T${time}:00</code>);<br />
+if (isNaN(d)) { toast('⚠️ Data/hora inválida.'); return; }<br />
+dueAt = d.toISOString();<br />
+}<br />
+State.tasks.unshift({<br />
+id: Safe.uid('task'), title: title.slice(0,160), dueAt,<br />
+done:false, notified:false, createdAt:new Date().toISOString()<br />
+});<br />
+persist('tasks'); $('taskTitle').value='';<br />
+renderTasks(); renderHomeStats(); toast('✅ Tarefa adicionada.');<br />
+}</p>
+<p>function renderTasks() {<br />
+const list = $('taskList'); list.textContent='';<br />
+if (!State.tasks.length) { list.appendChild(emptyState('✅','Nenhuma tarefa.')); return; }<br />
+State.tasks.forEach(task =&gt; {<br />
+const row  = document.createElement('div'); row.className='list-item';<br />
+const icon = document.createElement('button'); icon.type='button'; icon.className='list-icon';<br />
+icon.textContent = task.done?'☑️':'⬜';<br />
+icon.addEventListener('click', () =&gt; {<br />
+task.done=!task.done; persist('tasks'); renderTasks(); renderHomeStats();<br />
+});<br />
+const body = document.createElement('div'); body.className='list-body';<br />
+const t    = document.createElement('div'); t.className='list-title';<br />
+t.textContent = task.done ? <code>Concluída: ${task.title}</code> : task.title;<br />
+const s    = document.createElement('div'); s.className='list-sub';<br />
+s.textContent = task.dueAt ? <code>Prazo: ${fmtDT(task.dueAt)}</code> : 'Sem prazo';<br />
+const acts = document.createElement('div'); acts.className='action-row'; acts.style.marginTop='8px';<br />
+const del  = document.createElement('button'); del.type='button'; del.className='btn pink'; del.textContent='Excluir';<br />
+del.addEventListener('click', () =&gt; {<br />
+State.tasks=State.tasks.filter(t=&gt;t.id!==task.id);<br />
+persist('tasks'); renderTasks(); renderHomeStats();<br />
+});<br />
+acts.appendChild(del); body.append(t,s,acts); row.append(icon,body); list.appendChild(row);<br />
+});<br />
+}</p>
+<p>function checkTaskAlerts() {<br />
+const now = Date.now(); let changed=false;<br />
+State.tasks.forEach(task =&gt; {<br />
+if (task.done||task.notified||!task.dueAt) return;<br />
+const due = new Date(task.dueAt).getTime();<br />
+if (!isNaN(due) &amp;&amp; now &gt;= due) {<br />
+task.notified=true; changed=true;<br />
+notify('⏰ Tarefa', task.title);<br />
+}<br />
+});<br />
+if (changed) { persist('tasks'); renderTasks(); renderHomeStats(); }<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+NOTIFICAÇÕES<br />
+════════════════════════════════════ */<br />
+function notify(title, body) {<br />
+toast(<code>${title}: ${body}</code>, 3500);<br />
+navigator.vibrate?.([80,40,80]);<br />
+if ('Notification' in window &amp;&amp; Notification.permission==='granted') {<br />
+try { new Notification(title, {body}); } catch {}<br />
+}<br />
+}</p>
+<p>function askNotifications() {<br />
+if (!('Notification' in window)) { toast('Notificações não suportadas aqui.'); return; }<br />
+Notification.requestPermission()<br />
+.then(p =&gt; toast(p==='granted' ? '🔔 Notificações ativadas.' : '⚠️ Não autorizado.'))<br />
+.catch(() =&gt; toast('Não foi possível ativar.'));<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+CONFIGURAÇÕES<br />
+════════════════════════════════════ */<br />
+function fillSettings() {<br />
+const s = State.settings;<br />
+$('cfgDisplayName').value = s.displayName || '';<br />
+$('cfgPin').value         = s.pin || '1234';<br />
+$('cfgApiKey').value      = s.apiKey || '';<br />
+$('cfgWebhook').value     = s.webhook || '';<br />
+$('cfgWa').value          = s.waNumber || '';<br />
+$('toggleBio').checked    = !!s.bioEnabled;</p>
+<pre><code class="language-plain_text">$$('#themeGrid .theme-swatch').forEach(sw =&gt;
+  sw.classList.toggle('active', sw.dataset.theme === s.theme)
+);
+
+$$('#avatarGrid .av-btn').forEach(btn =&gt;
+  btn.classList.toggle('active', btn.dataset.avatar === s.avatar)
+);
+</code></pre>
+<p>}</p>
+<p>function saveSettings() {<br />
+const name = $('cfgDisplayName').value.trim() || DEFAULT.settings.displayName;<br />
+const pin  = $('cfgPin').value.trim();<br />
+if (!/^\d{4,8}$/.test(pin)) { toast('⚠️ PIN deve ter 4 a 8 dígitos.'); return; }<br />
+State.settings.displayName = name.slice(0,80);<br />
+State.settings.pin         = pin;<br />
+State.settings.bioEnabled  = $('toggleBio').checked;<br />
+persist('settings');<br />
+applyTheme();<br />
+renderIdentity();<br />
+Lock.init();<br />
+renderHomeStats();<br />
+toast('✅ Configurações salvas.');<br />
+}</p>
+<p>function saveIntegrations() {<br />
+State.settings.apiKey   = $('cfgApiKey').value.trim();<br />
+State.settings.webhook  = $('cfgWebhook').value.trim();<br />
+State.settings.waNumber = $('cfgWa').value.trim();<br />
+persist('settings');<br />
+toast('✅ Integrações salvas.');<br />
+}</p>
+<p>function setTheme(t) {<br />
+if (!THEMES.includes(t)) return;<br />
+State.settings.theme = t;<br />
+persist('settings');<br />
+applyTheme(t);<br />
+$$('#themeGrid .theme-swatch').forEach(s =&gt; s.classList.toggle('active', s.dataset.theme===t));<br />
+toast(<code>Tema: ${t}</code>);<br />
+}</p>
+<p>function setAvatar(av) {<br />
+State.settings.avatar = av;<br />
+persist('settings');<br />
+renderIdentity();<br />
+$$('#avatarGrid .av-btn').forEach(b =&gt; b.classList.toggle('active', b.dataset.avatar===av));<br />
+toast('Avatar atualizado.');<br />
+}</p>
+<p>function renderIdentity() {<br />
+const name = State.settings.displayName || DEFAULT.settings.displayName;<br />
+$('lockName') &amp;&amp; ($('lockName').textContent = name);<br />
+const pn = $('profileName'); if (pn) pn.textContent = name;<br />
+renderAvatar();<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+BACKUP — Export / Import Nativo<br />
+════════════════════════════════════ */<br />
+async function exportBackup() {<br />
+try {<br />
+const payload = JSON.stringify(Store.dump(State), null, 2);<br />
+const blob    = new Blob([payload], { type: 'application/json' });<br />
+const stamp   = new Date().toISOString().slice(0,19).replace(/[:T]/g,'-');<br />
+const fileName = <code>Codex_Backup_${stamp}.json</code>;</p>
+<pre><code class="language-plain_text">  // 1. Tenta acionar o Share Nativo do Celular (Web Share API)
+  if (navigator.canShare &amp;&amp; navigator.canShare({ files: [new File([blob], fileName, { type: blob.type })] })) {
+    const file = new File([blob], fileName, { type: blob.type });
+    await navigator.share({
+      title: 'Backup C0DΞX HUB',
+      files: [file]
+    });
+    toast('📦 Backup compartilhado com sucesso.');
+    return;
+  }
+
+  // 2. Fallback para Desktop e navegadores que não suportam Share
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = fileName;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() =&gt; URL.revokeObjectURL(url), 2000);
+  const st = $('backupStatus');
+  if (st) st.textContent = `✅ Backup gerado: ${stamp}`;
+  toast('📦 Backup JSON exportado.');
+} catch(e) {
+  if (e.name !== 'AbortError') { // Ignora se o usuário cancelar o popup de share
+    toast(`❌ Erro ao exportar: ${e.message}`);
+  }
+}
+</code></pre>
+<p>}</p>
+<p>function importBackup(fileInput) {<br />
+const file = fileInput.files?.[0];<br />
+if (!file) return;<br />
+const reader = new FileReader();</p>
+<pre><code class="language-plain_text">reader.onload = () =&gt; {
+  try {
+    const parsed = JSON.parse(String(reader.result || ''));
+    if (parsed.app !== APP || !parsed.data || typeof parsed.data !== 'object') {
+      throw new Error('Arquivo não reconhecido ou corrompido.');
+    }
+    Object.keys(DEFAULT).forEach(key =&gt; {
+      if (Object.prototype.hasOwnProperty.call(parsed.data, key)) {
+        State[key] = parsed.data[key];
+        Store.set(key, State[key]);
+      }
+    });
+    applyTheme();
+    renderIdentity();
+    renderAll();
+    const st = $('backupStatus');
+    if (st) st.textContent = `✅ Importado em ${new Date().toLocaleString('pt-BR')}`;
+    toast('✅ Backup importado com sucesso.');
+  } catch(err) {
+    toast(`❌ Falha: ${err.message}`);
+  } finally {
+    fileInput.value = '';
+  }
+};
+
+reader.onerror = () =&gt; {
+  toast('❌ Não foi possível ler o arquivo.');
+  fileInput.value = '';
+};
+
+reader.readAsText(file, 'UTF-8');
+</code></pre>
+<p>}</p>
+<p>/* ════════════════════════════════════<br />
+COMPARTILHAMENTO<br />
+════════════════════════════════════ */<br />
+function shareText(text) {<br />
+const payload = encodeURIComponent(String(text||'').slice(0,4000));<br />
+const num     = (State.settings.waNumber||'').replace(/\D/g,'');<br />
+const url     = num ? <code>https://wa.me/${num}?text=${payload}</code> : <code>https://wa.me/?text=${payload}</code>;<br />
+window.open(url, '_blank', 'noopener,noreferrer');<br />
+}</p>
+<p>function sharePausa() {<br />
+const sVal = $('pSaida')?.value || '--:--';<br />
+const rVal = pState.result !== null ? toHHMM(pState.result) : '--:--';<br />
+const dur  = $('pDuracao')?.value || '--';<br />
+shareText(<code>*C0DΞX HUB — Registro de Pausa*\n🕐 Saída: ${sVal}\n⏱ Duração: ${dur}\n🏁 Retorno: *${rVal}*</code>);<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+HOME STATS<br />
+════════════════════════════════════ */<br />
+function renderHomeStats() {<br />
+const open = State.tasks.filter(t=&gt;!t.done).length;<br />
+$('statBreaks').textContent    = State.breaks.length;<br />
+$('statVault').textContent     = State.vault.length;<br />
+$('statTasks').textContent     = open;<br />
+$('homeTaskBadge').textContent = open;<br />
+$('homeVaultBadge').textContent= State.vault.length;<br />
+if (!State.activeBreak) {<br />
+$('homePausaBadge').textContent = '0';<br />
+$('homePausaSub').textContent   = 'Controle de saída, retorno e histórico.';<br />
+}<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+SELEÇÃO WIKI → VAULT<br />
+════════════════════════════════════ */<br />
+function initSelectionNote() {<br />
+const btn = $('floatNoteBtn');<br />
+document.addEventListener('selectionchange', () =&gt; {<br />
+const sel  = window.getSelection();<br />
+const text = sel ? sel.toString().trim() : '';<br />
+const art  = $('wikiArticle');<br />
+if (!text || text.length &lt; 3 || art.hidden) { btn.classList.remove('open'); return; }<br />
+const anchor = sel.anchorNode;<br />
+if (!anchor || !art.contains(anchor.nodeType===Node.TEXT_NODE ? anchor.parentNode : anchor)) {<br />
+btn.classList.remove('open'); return;<br />
+}<br />
+const rect = sel.getRangeAt(0).getBoundingClientRect();<br />
+btn.style.left = <code>${Math.min(window.innerWidth-140, Math.max(12, rect.left))}px</code>;<br />
+btn.style.top  = <code>${Math.max(90, rect.top - 44)}px</code>;<br />
+btn.classList.add('open');<br />
+});<br />
+btn.addEventListener('click', () =&gt; {<br />
+const sel  = window.getSelection();<br />
+const text = sel ? sel.toString().trim() : '';<br />
+if (!text) return;<br />
+const note = window.prompt('Nota para este trecho:');<br />
+if (note === null) return;<br />
+addVaultItem('Trecho Wiki Delphi',<br />
+<code>Código/texto selecionado:\n${text}\n\nNota:\n${note}</code>,<br />
+['#Highlight','#WikiDelphi']);<br />
+btn.classList.remove('open');<br />
+sel.removeAllRanges();<br />
+});<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+EVENTOS GLOBAIS<br />
+════════════════════════════════════ */<br />
+function initEvents() {<br />
+document.addEventListener('click', e =&gt; {<br />
+const target = e.target.closest('[data-action],[data-view],[data-theme],[data-avatar],[data-adj]');<br />
+if (!target) return;<br />
+handleAction(target);<br />
+});</p>
+<pre><code class="language-plain_text">$('biometricBtn')?.addEventListener('click', () =&gt; Lock.tryBiometric());
+
+$('wikiSearchInput')?.addEventListener('input', () =&gt; renderWikiResults());
+
+$('backupImportInput')?.addEventListener('change', e =&gt; importBackup(e.target));
+
+$('avatarUpload')?.addEventListener('change', e =&gt; {
+  const file = e.target.files?.[0];
+  if (!file) return;
+  if (!file.type.startsWith('image/')) { toast('⚠️ Arquivo de imagem inválido.'); return; }
+  if (file.size &gt; 1024*1024) { toast('⚠️ Imagem muito grande. Limite: 1 MB.'); return; }
+  const reader = new FileReader();
+  reader.onload = () =&gt; {
+    State.settings.avatar = String(reader.result);
+    persist('settings');
+    renderIdentity();
+    toast('📷 Foto de perfil salva.');
+  };
+  reader.readAsDataURL(file);
+  e.target.value='';
+});
+
+$('toggleBio')?.addEventListener('change', e =&gt; {
+  State.settings.bioEnabled = e.target.checked;
+  persist('settings');
+});
+
+$('themeGrid')?.addEventListener('click', e =&gt; {
+  const sw = e.target.closest('[data-theme]');
+  if (sw) setTheme(sw.dataset.theme);
+});
+
+$('avatarGrid')?.addEventListener('click', e =&gt; {
+  const btn = e.target.closest('[data-avatar]');
+  if (btn) setAvatar(btn.dataset.avatar);
+});
+</code></pre>
+<p>}</p>
+<p>function handleAction(target) {<br />
+const action = target.dataset.action;<br />
+const view   = target.dataset.view;<br />
+const adj    = target.dataset.adj;</p>
+<pre><code class="language-plain_text">if (adj !== undefined) { adjPausa(parseInt(adj,10)); return; }
+
+if (action) {
+  switch(action) {
+    case 'open-settings':      showView('settings'); break;
+    case 'lock':               Lock.lock(); break;
+    case 'start-break-now':    startBreak(new Date(), toMins($('pDuracao').value) ?? 72); break;
+    case 'start-break-manual': {
+      const sM = toMins($('pSaida').value);
+      if (sM === null) { toast('⚠️ Defina a hora de saída.'); break; }
+      const n  = new Date();
+      const st = new Date(n); st.setHours(Math.floor(sM/60), sM%60, 0, 0);
+      startBreak(st, toMins($('pDuracao').value) ?? 72);
+      break;
+    }
+    case 'finish-break':       finishBreak(); break;
+    case 'clear-break-history':
+      if (confirm('Limpar histórico de pausas?')) {
+        State.breaks=[]; persist('breaks'); renderBreakHistory(); renderHomeStats();
+        toast('Histórico limpo.');
+      }
+      break;
+    case 'search-wiki':        renderWikiResults(); break;
+    case 'search-online': {
+      const q = $('wikiSearchInput').value.trim();
+      if(!q) { toast('Digite algo para buscar online.'); break; }
+      window.open(`https://docwiki.embarcadero.com/index.php?search=${encodeURIComponent(q)}`, '_blank');
+      break;
+    }
+    case 'close-article':      closeArticle(); break;
+    case 'save-wiki-search':   saveCurrentWikiSearch(); break;
+    case 'add-vault':
+      if (addVaultItem($('vaultTitle').value, $('vaultBody').value, $('vaultTags').value)) {
+        ['vaultTitle','vaultBody','vaultTags'].forEach(id =&gt; $(id).value='');
+        toast('💾 Nota salva.');
+      }
+      break;
+    case 'share-vault-summary':
+      shareText(`C0DΞX HUB — Vault\n\nTotal: ${State.vault.length} nota(s).`);
+      break;
+    case 'clear-vault':
+      if (confirm('Limpar todo o Vault?')) {
+        State.vault=[]; persist('vault'); renderVault(); renderHomeStats(); toast('Vault limpo.');
+      }
+      break;
+    case 'add-task':           addTask(); break;
+    case 'ask-notifications':  askNotifications(); break;
+    case 'clear-done-tasks':
+      State.tasks=State.tasks.filter(t=&gt;!t.done);
+      persist('tasks'); renderTasks(); renderHomeStats(); toast('Concluídas removidas.');
+      break;
+    case 'save-settings':      saveSettings(); break;
+    case 'save-integrations':  saveIntegrations(); break;
+    case 'upload-avatar':      $('avatarUpload').click(); break;
+    case 'export-backup':      exportBackup(); break;
+    case 'import-backup':      $('backupImportInput').click(); break;
+    case 'close-sheet':
+      $('sheetBackdrop').classList.remove('open');
+      $$('.sheet').forEach(s=&gt;s.classList.remove('open'));
+      break;
+    case 'share-pausa':        sharePausa(); break;
+  }
+  return;
+}
+if (view) showView(view);
+</code></pre>
+<p>}</p>
+<p>/* ════════════════════════════════════<br />
+GESTOS (Touch)<br />
+════════════════════════════════════ */<br />
+function initGestures() {<br />
+const area = $('scrollArea');<br />
+let tx=0, ty=0, tt=0;</p>
+<pre><code class="language-plain_text">area.addEventListener('touchstart', e =&gt; {
+  const t=e.changedTouches[0]; tx=t.clientX; ty=t.clientY; tt=Date.now();
+}, {passive:true});
+
+area.addEventListener('touchmove', e =&gt; {
+  const t=e.changedTouches[0], dy=t.clientY-ty;
+  if (area.scrollTop&lt;=0 &amp;&amp; dy&gt;55) $('ptrIndicator').classList.add('active');
+}, {passive:true});
+
+area.addEventListener('touchend', e =&gt; {
+  const t=e.changedTouches[0];
+  const dx=t.clientX-tx, dy=t.clientY-ty, dt=Date.now()-tt;
+
+  if (dx&gt;90 &amp;&amp; Math.abs(dy)&lt;70 &amp;&amp; dt&lt;650) { goBack(); return; }
+
+  if (area.scrollTop&lt;=0 &amp;&amp; dy&gt;70) {
+    $('ptrIndicator').classList.add('active');
+    setTimeout(() =&gt; {
+      renderAll();
+      $('ptrIndicator').classList.remove('active');
+      toast('🔄 Dados atualizados.');
+    }, 280);
+  } else {
+    $('ptrIndicator').classList.remove('active');
+  }
+}, {passive:true});
+</code></pre>
+<p>}</p>
+<p>/* ════════════════════════════════════<br />
+HELPERS<br />
+════════════════════════════════════ */<br />
+function emptyState(icon, msg) {<br />
+const box = document.createElement('div'); box.className='empty-state';<br />
+const ic  = document.createElement('div'); ic.className='empty-icon'; ic.textContent=icon;<br />
+const tx  = document.createElement('div'); tx.textContent=msg;<br />
+box.append(ic, tx); return box;<br />
+}</p>
+<p>function renderAll() {<br />
+applyTheme();<br />
+renderIdentity();<br />
+renderBreakTicker();<br />
+renderBreakHistory();<br />
+renderWiki();<br />
+renderVault();<br />
+renderTasks();<br />
+renderHomeStats();<br />
+}</p>
+<p>/* ════════════════════════════════════<br />
+INIT E CHECAGEM DE PERSISTÊNCIA<br />
+════════════════════════════════════ */<br />
+function checkStorageAvailability() {<br />
+try {<br />
+localStorage.setItem('codex_test', '1');<br />
+localStorage.removeItem('codex_test');<br />
+} catch(e) {<br />
+setTimeout(() =&gt; alert('⚠️ ALERTA: O navegador atual está bloqueando o armazenamento local (localStorage). Seus dados serão perdidos ao fechar a página. Evite abrir este arquivo diretamente (file://) no celular, ou adicione à tela inicial para funcionar corretamente.'), 1500);<br />
+}<br />
+}</p>
+<p>function init() {<br />
+checkStorageAvailability();<br />
+loadState();</p>
+<pre><code class="language-plain_text">Lock.init();
+initEvents();
+initGestures();
+initSelectionNote();
+
+applyTheme();
+renderIdentity();
+updateClock();
+
+setInterval(updateClock,   15000);
+setInterval(renderBreakTicker, 10000);
+setInterval(checkTaskAlerts,   30000);
+
+initPausa();
+renderAll();
+showView('home', false);
+
+if (State.settings.bioEnabled) {
+  setTimeout(() =&gt; Lock.tryBiometric(), 600);
+}
+
+window.CodexHub = Object.freeze({
+  version: VER,
+  exportBackup,
+  State: () =&gt; clone(State)
+});
+</code></pre>
+<p>}</p>
+<p>document.addEventListener('DOMContentLoaded', init);</p>
+<p>})();</script></body></html></p>
+</div></body></html>
